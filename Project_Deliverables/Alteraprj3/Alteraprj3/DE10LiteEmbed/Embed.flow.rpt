@@ -1,0 +1,142 @@
+Flow report for Embed
+Fri Feb 16 15:04:05 2018
+Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Fri Feb 16 15:03:52 2018       ;
+; Quartus Prime Version              ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
+; Revision Name                      ; Embed                                       ;
+; Top-level Entity Name              ; DE10_LITE_Default                           ;
+; Family                             ; MAX 10                                      ;
+; Device                             ; 10M50DAF484C6GES                            ;
+; Timing Models                      ; Preliminary                                 ;
+; Total logic elements               ; 7,778 / 49,760 ( 16 % )                     ;
+;     Total combinational functions  ; 6,704 / 49,760 ( 13 % )                     ;
+;     Dedicated logic registers      ; 4,537 / 49,760 ( 9 % )                      ;
+; Total registers                    ; 4606                                        ;
+; Total pins                         ; 185 / 360 ( 51 % )                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 490,296 / 1,677,312 ( 29 % )                ;
+; Embedded Multiplier 9-bit elements ; 6 / 288 ( 2 % )                             ;
+; Total PLLs                         ; 3 / 4 ( 75 % )                              ;
+; UFM blocks                         ; 1 / 1 ( 100 % )                             ;
+; ADC blocks                         ; 1 / 2 ( 50 % )                              ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 02/16/2018 15:01:29 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; Embed               ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                 ;
++-------------------------------------+---------------------------------------------------------+---------------+---------------------+------------+
+; Assignment Name                     ; Value                                                   ; Default Value ; Entity Name         ; Section Id ;
++-------------------------------------+---------------------------------------------------------+---------------+---------------------+------------+
+; COMPILER_SIGNATURE_ID               ; 24062491136.151881848922496                             ; --            ; --                  ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                      ; --            ; --                  ; --         ;
+; MESSAGE_DISABLE                     ; 332060                                                  ; --            ; altera_onchip_flash ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                       ; --            ; --                  ; --         ;
+; MISC_FILE                           ; Embed/Embed/synthesis/../Embed.cmp                      ; --            ; --                  ; --         ;
+; MISC_FILE                           ; Embed/Embed/synthesis/../../Embed.qsys                  ; --            ; --                  ; --         ;
+; MISC_FILE                           ; VGA_DATA/Img_RAM.bsf                                    ; --            ; --                  ; --         ;
+; MISC_FILE                           ; VGA_Audio_PLL_bb.v                                      ; --            ; --                  ; --         ;
+; MISC_FILE                           ; VGA_Audio_PLL.ppf                                       ; --            ; --                  ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                                       ; --            ; --                  ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                                       ; --            ; --                  ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                              ; --            ; --                  ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                              ; --            ; --                  ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)                  ; --            ; DE10_LITE_Default   ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                  ; --            ; DE10_LITE_Default   ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                  ; --            ; DE10_LITE_Default   ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                     ; --            ; --                  ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                   ; --            ; --                  ; --         ;
+; SLD_FILE                            ; Embed/Embed/synthesis/Embed.regmap                      ; --            ; --                  ; --         ;
+; SLD_FILE                            ; Embed/Embed/synthesis/Embed.debuginfo                   ; --            ; --                  ; --         ;
+; SLD_INFO                            ; QSYS_NAME Embed HAS_SOPCINFO 1 GENERATION_ID 1518817525 ; --            ; --                  ; --         ;
+; SOPCINFO_FILE                       ; Embed/Embed/synthesis/../../Embed.sopcinfo              ; --            ; --                  ; --         ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                      ; --            ; --                  ; --         ;
+; TOP_LEVEL_ENTITY                    ; DE10_LITE_Default                                       ; Embed         ; --                  ; --         ;
++-------------------------------------+---------------------------------------------------------+---------------+---------------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:01:11     ; 1.0                     ; 1012 MB             ; 00:01:38                           ;
+; Fitter                    ; 00:00:57     ; 1.2                     ; 1442 MB             ; 00:01:17                           ;
+; Assembler                 ; 00:00:04     ; 1.0                     ; 649 MB              ; 00:00:04                           ;
+; TimeQuest Timing Analyzer ; 00:00:12     ; 1.5                     ; 801 MB              ; 00:00:16                           ;
+; Total                     ; 00:02:24     ; --                      ; --                  ; 00:03:15                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                         ;
++---------------------------+------------------+------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++---------------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis      ; LAPTOP-2F1QTGCH  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter                    ; LAPTOP-2F1QTGCH  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler                 ; LAPTOP-2F1QTGCH  ; Windows 10 ; 10.0       ; x86_64         ;
+; TimeQuest Timing Analyzer ; LAPTOP-2F1QTGCH  ; Windows 10 ; 10.0       ; x86_64         ;
++---------------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Embed -c Embed
+quartus_fit --read_settings_files=off --write_settings_files=off Embed -c Embed
+quartus_asm --read_settings_files=off --write_settings_files=off Embed -c Embed
+quartus_sta Embed -c Embed
+
+
+

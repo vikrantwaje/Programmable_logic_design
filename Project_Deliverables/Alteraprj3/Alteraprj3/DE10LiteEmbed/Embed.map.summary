@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Feb 16 15:02:46 2018
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : Embed
+Top-level Entity Name : DE10_LITE_Default
+Family : MAX 10
+Total logic elements : 8,458
+    Total combinational functions : 6,679
+    Dedicated logic registers : 4,732
+Total registers : 4732
+Total pins : 185
+Total virtual pins : 0
+Total memory bits : 490,296
+Embedded Multiplier 9-bit elements : 6
+Total PLLs : 3
+UFM blocks : 1
+ADC blocks : 1

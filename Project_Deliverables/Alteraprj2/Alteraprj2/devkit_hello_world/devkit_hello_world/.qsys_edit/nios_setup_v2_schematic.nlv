@@ -1,0 +1,22 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst nios_setup_v2.uart -pg 1 -lvl 3 -y 110
+preplace inst nios_setup_v2.onchip_memory -pg 1 -lvl 3 -y 30
+preplace inst nios_setup_v2.nios2e.reset_bridge -pg 1
+preplace inst nios_setup_v2.led -pg 1 -lvl 3 -y 310
+preplace inst nios_setup_v2.switch -pg 1 -lvl 3 -y 210
+preplace inst nios_setup_v2 -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst nios_setup_v2.nios2e.cpu -pg 1
+preplace inst nios_setup_v2.nios2e -pg 1 -lvl 2 -y 100
+preplace inst nios_setup_v2.nios2e.clock_bridge -pg 1
+preplace inst nios_setup_v2.clk_0 -pg 1 -lvl 1 -y 40
+preplace netloc POINT_TO_POINT<net_container>nios_setup_v2</net_container>(SLAVE)uart.irq,(MASTER)nios2e.irq) 1 2 1 800
+preplace netloc EXPORT<net_container>nios_setup_v2</net_container>(SLAVE)switch.external_connection,(SLAVE)nios_setup_v2.switch_external_connection) 1 0 3 NJ 240 NJ 240 NJ
+preplace netloc EXPORT<net_container>nios_setup_v2</net_container>(SLAVE)nios_setup_v2.reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
+preplace netloc INTERCONNECT<net_container>nios_setup_v2</net_container>(SLAVE)onchip_memory.s1,(SLAVE)switch.s1,(MASTER)nios2e.data_master,(SLAVE)uart.avalon_jtag_slave,(SLAVE)nios2e.debug_mem_slave,(SLAVE)led.s1,(MASTER)nios2e.instruction_master) 1 1 2 420 360 780
+preplace netloc FAN_OUT<net_container>nios_setup_v2</net_container>(SLAVE)uart.reset,(MASTER)clk_0.clk_reset,(SLAVE)nios2e.reset,(SLAVE)onchip_memory.reset1,(SLAVE)switch.reset,(SLAVE)led.reset) 1 1 2 400 60 820
+preplace netloc EXPORT<net_container>nios_setup_v2</net_container>(SLAVE)led.external_connection,(SLAVE)nios_setup_v2.led_external_connection) 1 0 3 NJ 340 NJ 340 NJ
+preplace netloc FAN_OUT<net_container>nios_setup_v2</net_container>(SLAVE)switch.clk,(SLAVE)nios2e.clk,(MASTER)clk_0.clk,(SLAVE)onchip_memory.clk1,(SLAVE)led.clk,(SLAVE)uart.clk) 1 1 2 380 40 840
+preplace netloc EXPORT<net_container>nios_setup_v2</net_container>(SLAVE)nios_setup_v2.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+levelinfo -pg 1 0 170 1040
+levelinfo -hier nios_setup_v2 180 210 540 880 1030

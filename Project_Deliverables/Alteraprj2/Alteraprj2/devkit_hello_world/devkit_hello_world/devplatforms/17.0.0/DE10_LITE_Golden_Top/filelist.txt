@@ -1,0 +1,2 @@
+DE10_LITE_Golden_Top.qp_info
+DE10_LITE_Golden_Top.qar
