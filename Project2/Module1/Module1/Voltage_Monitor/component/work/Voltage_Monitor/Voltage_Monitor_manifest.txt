@@ -1,0 +1,21 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 SP3 (Version 11.8.3.6)
+
+Date      :  Tue Mar 13 14:46:54 2018
+Project   :  C:\Project2\Module1\Voltage_Monitor
+Component :  Voltage_Monitor
+Family    :  SmartFusion
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Project2/Module1/Voltage_Monitor/component/work/Voltage_Monitor/MSS_CCC_0/Voltage_Monitor_tmp_MSS_CCC_0_MSS_CCC.v
+    C:/Project2/Module1/Voltage_Monitor/component/work/Voltage_Monitor/Voltage_Monitor.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Project2/Module1/Voltage_Monitor/component/Actel/SmartFusionMSS/MSS/2.5.200/mss_comps.v
+    C:/Project2/Module1/Voltage_Monitor/component/work/Voltage_Monitor/mss_tshell.v
+
+Stimulus files for all Simulation tools:
+    C:/Project2/Module1/Voltage_Monitor/component/Actel/SmartFusionMSS/MSS/2.5.200/CompileDssBfm.tcl
+    C:/Project2/Module1/Voltage_Monitor/component/Actel/SmartFusionMSS/MSS/2.5.200/bfmtovec.exe
+    C:/Project2/Module1/Voltage_Monitor/component/work/Voltage_Monitor/MSS_ENVM_0/test.bfm
+

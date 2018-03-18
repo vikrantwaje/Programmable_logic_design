@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.ui.externaltools.ProgramLaunchConfigurationType">
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="C:\Microsemi\Libero_SoC_v11.8\Designer\bin\libero.exe"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="STARTED_BY:SoftConsole&#13;&#10; PROJECT_LOCATION:C:\Project2\Module1\Voltage_Monitor&#13;&#10; DESIGN_NAME:Voltage_Monitor"/>
+</launchConfiguration>

@@ -1,0 +1,1472 @@
+Archive member included because of file (symbol)
+
+C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                              ./main.o (g_mss_uart0)
+C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+                              ./main.o (MSS_GPIO_init)
+C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+                              ./main.o (ACE_convert_to_mV)
+C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                              ./main.o (ACE_get_flag_status)
+C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+                              ./main.o (ACE_init)
+C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                              C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o) (g_FrequencyPCLK0)
+C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+                              C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o) (g_ace_adc_config)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubdf3.o)
+                              ./main.o (__aeabi_f2d)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubsf3.o)
+                              ./main.o (__aeabi_i2f)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivsf3.o)
+                              ./main.o (__aeabi_fdiv)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+                              C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o (__errno)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o) (_impure_ptr)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+                              C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o (__libc_init_array)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-snprintf.o)
+                              ./main.o (snprintf)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncmp.o)
+                              C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o) (strncmp)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-snprintf.o) (_svfprintf_r)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o) (_dtoa_r)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o) (_free_r)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o) (_localeconv_r)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-malloc.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o) (malloc)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o) (_malloc_r)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o) (memchr)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o) (memcpy)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memmove.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o) (memmove)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mlock.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o) (__malloc_lock)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o) (__hi0bits)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reallocr.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o) (_realloc_r)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isinfd.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o) (__isinfd)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isnand.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o) (__isnand)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o) (_sbrk_r)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o) (strcmp)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o) (strlen)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-callocr.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o) (_calloc_r)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-callocr.o) (memset)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o) (errno)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o) (__aeabi_uidiv)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_dvmd_tls.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivdf3.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o) (__aeabi_dmul)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpdf2.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o) (__aeabi_dcmpeq)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixdfsi.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o) (__aeabi_d2iz)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_aeabi_uldivmod.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o) (__aeabi_uldivmod)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o) (__divdi3)
+c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
+                              c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o) (__udivdi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
+g_mss_uart1         0x28              C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+g_mss_uart0         0x28              C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .data          0x00000000        0x4 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .text          0x00000000        0x0 ./main.o
+ .data          0x00000000        0x0 ./main.o
+ .bss           0x00000000        0x0 ./main.o
+ .text          0x00000000        0x0 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .data          0x00000000        0x0 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .bss           0x00000000        0x0 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .text          0x00000000        0x0 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .data          0x00000000        0x0 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .bss           0x00000000        0x0 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .bss.__env     0x00000000        0x4 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .data.environ  0x00000000        0x4 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._close   0x00000000       0x18 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._execve  0x00000000       0x28 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._fork    0x00000000       0x18 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._fstat   0x00000000       0x24 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._getpid  0x00000000       0x10 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._isatty  0x00000000       0x18 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._kill    0x00000000       0x24 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._link    0x00000000       0x24 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._lseek   0x00000000       0x1c C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._open    0x00000000       0x1c C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._read    0x00000000       0x1c C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._stat    0x00000000       0x24 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._times   0x00000000       0x18 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._unlink  0x00000000       0x24 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._wait    0x00000000       0x24 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text          0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .data          0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .bss           0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.NVIC_EnableIRQ
+                0x00000000       0x38 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.NVIC_DisableIRQ
+                0x00000000       0x3c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_irq_tx
+                0x00000000       0xb0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_tx_complete
+                0x00000000       0x90 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_get_rx
+                0x00000000       0xdc C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_enable_irq
+                0x00000000       0x7c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_disable_irq
+                0x00000000       0x88 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_set_rx_handler
+                0x00000000       0xa8 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_set_loopback
+                0x00000000       0x70 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_set_rxstatus_handler
+                0x00000000       0x84 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_set_tx_handler
+                0x00000000       0x94 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_set_modemstatus_handler
+                0x00000000       0x84 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_fill_tx_fifo
+                0x00000000       0xd4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_get_rx_status
+                0x00000000       0x80 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_get_modem_status
+                0x00000000       0x60 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_get_tx_status
+                0x00000000       0x78 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text          0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .data          0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .bss           0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text.NVIC_EnableIRQ
+                0x00000000       0x38 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_set_output
+                0x00000000       0x40 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_drive_inout
+                0x00000000      0x128 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_enable_irq
+                0x00000000       0x64 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_disable_irq
+                0x00000000       0x50 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_clear_irq
+                0x00000000       0x50 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text          0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .data          0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .bss           0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_get_channel_type
+                0x00000000       0x44 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_adc_input_to_mV
+                0x00000000       0x64 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_to_mA
+                0x00000000       0xb4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_to_uA
+                0x00000000       0xb0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_to_Kelvin
+                0x00000000       0x4c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_to_Celsius
+                0x00000000       0x3c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_to_Fahrenheit
+                0x00000000       0x58 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_mV_to_adc_value
+                0x00000000       0xa0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.convert_mV_to_ppe_value
+                0x00000000       0x7c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_from_mV
+                0x00000000      0x110 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_from_mA
+                0x00000000       0xc4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_from_uA
+                0x00000000       0xc4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_from_Kelvin
+                0x00000000       0x58 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_from_Celsius
+                0x00000000       0x4c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_from_Fahrenheit
+                0x00000000       0x64 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_translate_pdma_value
+                0x00000000       0x34 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text          0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .data          0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .bss           0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.NVIC_EnableIRQ
+                0x00000000       0x38 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_is_hysteresis_flag
+                0x00000000       0x44 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_is_under_flag
+                0x00000000       0x84 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_set_flag_threshold
+                0x00000000      0x1b0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_set_flag_assertion
+                0x00000000       0xc4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_set_flag_deassertion
+                0x00000000       0xc0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_set_flag_hysteresis
+                0x00000000      0x1a4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_set_channel_hysteresis
+                0x00000000       0x84 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .rodata.threshold_irqn_lut
+                0x00000000       0x40 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_get_flag_handle
+                0x00000000       0x74 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_get_flag_name
+                0x00000000       0x40 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_get_flag_channel
+                0x00000000       0x48 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_get_channel_flag_count
+                0x00000000       0x44 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_get_channel_first_flag
+                0x00000000       0x78 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_get_channel_next_flag
+                0x00000000       0xa4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_enable_channel_flags_irq
+                0x00000000       0x7c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_disable_channel_flags_irq
+                0x00000000       0x7c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_clear_channel_flags_irq
+                0x00000000       0x7c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_enable_flag_irq
+                0x00000000       0xa4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_disable_flag_irq
+                0x00000000       0xb0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_clear_flag_irq
+                0x00000000       0xac C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_register_flag_isr
+                0x00000000       0x58 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_register_channel_flags_isr
+                0x00000000       0x34 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_register_global_flags_isr
+                0x00000000       0x20 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .rodata.C.18.3545
+                0x00000000       0x20 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text          0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .data          0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .bss           0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_start_adc
+                0x00000000       0x2c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .rodata.adc_status_reg_lut
+                0x00000000        0xc C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_get_adc_result
+                0x00000000       0x64 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .rodata.dac_ctrl_reg_lut
+                0x00000000        0xc C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .rodata.dac_enable_masks_lut
+                0x00000000        0xc C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .rodata.dac_byte01_reg_lut
+                0x00000000        0xc C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .rodata.dac_byte2_reg_lut
+                0x00000000        0xc C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .rodata.p_mtd_data
+                0x00000000        0x4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_configure_sdd
+                0x00000000      0x1a0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_enable_sdd
+                0x00000000       0x48 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_disable_sdd
+                0x00000000       0x48 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_set_sdd_value
+                0x00000000       0x4c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_set_sdd_value_sync
+                0x00000000       0xd0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .rodata.comp_id_2_scb_lut
+                0x00000000        0xc C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_set_comp_reference
+                0x00000000      0x1b4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_set_comp_hysteresis
+                0x00000000      0x128 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_enable_comp
+                0x00000000       0xfc C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_disable_comp
+                0x00000000       0xf8 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_enable_comp_rise_irq
+                0x00000000       0x50 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_disable_comp_rise_irq
+                0x00000000       0x70 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_clear_comp_rise_irq
+                0x00000000       0x6c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_enable_comp_fall_irq
+                0x00000000       0x50 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_disable_comp_fall_irq
+                0x00000000       0x70 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_clear_comp_fall_irq
+                0x00000000       0x6c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_get_comp_status
+                0x00000000       0x20 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_get_channel_count
+                0x00000000       0x10 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_get_first_channel
+                0x00000000       0x1c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_get_next_channel
+                0x00000000       0x2c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_get_channel_handle
+                0x00000000       0x74 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_get_input_channel_handle
+                0x00000000       0x54 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .rodata.C.18.3514
+                0x00000000        0x4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text          0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .data          0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .bss           0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .text          0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .data          0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .bss           0x00000000        0x0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .rodata.g_ace_current_resistors
+                0x00000000        0x8 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .rodata.g_ace_external_varef_used
+                0x00000000        0x4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .rodata.g_ace_ppe_transforms_desc_table
+                0x00000000        0x8 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .rodata.g_ace_sse_proc_0_name
+                0x00000000        0xc C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .rodata.g_ace_sse_proc_0_sequence
+                0x00000000        0xc C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .rodata.g_ace_sse_proc_1_name
+                0x00000000        0xc C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .rodata.g_ace_sse_proc_1_sequence
+                0x00000000        0x8 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .data.g_sse_sequences_desc_table
+                0x00000000       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubsf3.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubsf3.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivsf3.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivsf3.o)
+ .text          0x00000000        0xc c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .text          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .rodata        0x00000000        0x4 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-snprintf.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-snprintf.o)
+ .text          0x00000000       0xa8 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncmp.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncmp.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncmp.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o)
+ .data          0x00000000       0x10 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+ .bss           0x00000000        0xc c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-malloc.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-malloc.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memmove.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memmove.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mlock.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mlock.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reallocr.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reallocr.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isinfd.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isinfd.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isnand.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isnand.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-callocr.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-callocr.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+ .text          0x00000000      0x10c c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixdfsi.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixdfsi.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
+ .text          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .text          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .data          0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .bss           0x00000000        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x20000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+LOAD c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+LOAD ./main.o
+LOAD C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+LOAD C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+LOAD C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a
+START GROUP
+LOAD c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
+LOAD c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a
+END GROUP
+LOAD c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+LOAD c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+START GROUP
+LOAD c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a
+LOAD c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
+LOAD c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libm.a
+END GROUP
+                0x00000000                __DYNAMIC = 0x0
+                0x20000000                RAM_START_ADDRESS = 0x20000000
+                0x00010000                RAM_SIZE = 0x10000
+                0x00002000                MAIN_STACK_SIZE = 0x2000
+                0x00001000                PROCESS_STACK_SIZE = 0x1000
+                0x20010000                PROVIDE (__main_stack_start, (RAM_START_ADDRESS + RAM_SIZE))
+                0x2000e000                PROVIDE (__process_stack_start, (__main_stack_start - MAIN_STACK_SIZE))
+                0x20010000                PROVIDE (_estack, __main_stack_start)
+                0x00000000                PROVIDE (__mirrored_nvm, 0x0)
+
+.text           0x20000000     0x7c00
+ CREATE_OBJECT_SYMBOLS
+                0x20000000                __text_load = LOADADDR (.text)
+                0x20000000                __text_start = .
+                0x20000000                __vector_table_vma_base_address = .
+ *(.isr_vector)
+ .isr_vector    0x20000000      0x470 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+                0x20000000                g_pfnVectors
+                0x20000298                Reset_Handler
+                0x20000308                NMI_Handler
+                0x2000030a                HardFault_Handler
+                0x2000030c                MemManage_Handler
+                0x2000030e                BusFault_Handler
+                0x20000310                UsageFault_Handler
+                0x20000312                SVC_Handler
+                0x20000314                DebugMon_Handler
+                0x20000316                PendSV_Handler
+                0x20000318                SysTick_Handler
+                0x2000031a                WdogWakeup_IRQHandler
+                0x2000031c                BrownOut_1_5V_IRQHandler
+                0x2000031e                BrownOut_3_3V_IRQHandler
+                0x20000320                RTC_Match_IRQHandler
+                0x20000322                RTCIF_Pub_IRQHandler
+                0x20000324                EthernetMAC_IRQHandler
+                0x20000326                IAP_IRQHandler
+                0x20000328                ENVM0_IRQHandler
+                0x2000032a                ENVM1_IRQHandler
+                0x2000032c                DMA_IRQHandler
+                0x20000332                SPI0_IRQHandler
+                0x20000334                SPI1_IRQHandler
+                0x20000336                I2C0_IRQHandler
+                0x20000338                I2C0_SMBAlert_IRQHandler
+                0x2000033a                I2C0_SMBus_IRQHandler
+                0x2000033c                I2C1_IRQHandler
+                0x2000033e                I2C1_SMBAlert_IRQHandler
+                0x20000340                I2C1_SMBus_IRQHandler
+                0x20000342                Timer1_IRQHandler
+                0x20000344                Timer2_IRQHandler
+                0x20000346                PLL_Lock_IRQHandler
+                0x20000348                PLL_LockLost_IRQHandler
+                0x2000034a                CommError_IRQHandler
+                0x2000034c                Fabric_IRQHandler
+                0x2000034e                GPIO0_IRQHandler
+                0x20000350                GPIO1_IRQHandler
+                0x20000352                GPIO2_IRQHandler
+                0x20000354                GPIO3_IRQHandler
+                0x20000356                GPIO4_IRQHandler
+                0x20000358                GPIO5_IRQHandler
+                0x2000035a                GPIO6_IRQHandler
+                0x2000035c                GPIO7_IRQHandler
+                0x2000035e                GPIO8_IRQHandler
+                0x20000360                GPIO9_IRQHandler
+                0x20000362                GPIO10_IRQHandler
+                0x20000364                GPIO11_IRQHandler
+                0x20000366                GPIO12_IRQHandler
+                0x20000368                GPIO13_IRQHandler
+                0x2000036a                GPIO14_IRQHandler
+                0x2000036c                GPIO15_IRQHandler
+                0x2000036e                GPIO16_IRQHandler
+                0x20000370                GPIO17_IRQHandler
+                0x20000372                GPIO18_IRQHandler
+                0x20000374                GPIO19_IRQHandler
+                0x20000376                GPIO20_IRQHandler
+                0x20000378                GPIO21_IRQHandler
+                0x2000037a                GPIO22_IRQHandler
+                0x2000037c                GPIO23_IRQHandler
+                0x2000037e                GPIO24_IRQHandler
+                0x20000380                GPIO25_IRQHandler
+                0x20000382                GPIO26_IRQHandler
+                0x20000384                GPIO27_IRQHandler
+                0x20000386                GPIO28_IRQHandler
+                0x20000388                GPIO29_IRQHandler
+                0x2000038a                GPIO30_IRQHandler
+                0x2000038c                GPIO31_IRQHandler
+                0x2000038e                ACE_PC0_Flag0_IRQHandler
+                0x20000390                ACE_PC0_Flag1_IRQHandler
+                0x20000392                ACE_PC0_Flag2_IRQHandler
+                0x20000394                ACE_PC0_Flag3_IRQHandler
+                0x20000396                ACE_PC1_Flag0_IRQHandler
+                0x20000398                ACE_PC1_Flag1_IRQHandler
+                0x2000039a                ACE_PC1_Flag2_IRQHandler
+                0x2000039c                ACE_PC1_Flag3_IRQHandler
+                0x2000039e                ACE_PC2_Flag0_IRQHandler
+                0x200003a0                ACE_PC2_Flag1_IRQHandler
+                0x200003a2                ACE_PC2_Flag2_IRQHandler
+                0x200003a4                ACE_PC2_Flag3_IRQHandler
+                0x200003a6                ACE_ADC0_DataValid_IRQHandler
+                0x200003a8                ACE_ADC1_DataValid_IRQHandler
+                0x200003aa                ACE_ADC2_DataValid_IRQHandler
+                0x200003ac                ACE_ADC0_CalDone_IRQHandler
+                0x200003ae                ACE_ADC1_CalDone_IRQHandler
+                0x200003b0                ACE_ADC2_CalDone_IRQHandler
+                0x200003b2                ACE_ADC0_CalStart_IRQHandler
+                0x200003b4                ACE_ADC1_CalStart_IRQHandler
+                0x200003b6                ACE_ADC2_CalStart_IRQHandler
+                0x200003b8                ACE_Comp0_Fall_IRQHandler
+                0x200003ba                ACE_Comp1_Fall_IRQHandler
+                0x200003bc                ACE_Comp2_Fall_IRQHandler
+                0x200003be                ACE_Comp3_Fall_IRQHandler
+                0x200003c0                ACE_Comp4_Fall_IRQHandler
+                0x200003c2                ACE_Comp5_Fall_IRQHandler
+                0x200003c4                ACE_Comp6_Fall_IRQHandler
+                0x200003c6                ACE_Comp7_Fall_IRQHandler
+                0x200003c8                ACE_Comp8_Fall_IRQHandler
+                0x200003ca                ACE_Comp9_Fall_IRQHandler
+                0x200003cc                ACE_Comp10_Fall_IRQHandler
+                0x200003ce                ACE_Comp11_Fall_IRQHandler
+                0x200003d0                ACE_Comp0_Rise_IRQHandler
+                0x200003d2                ACE_Comp1_Rise_IRQHandler
+                0x200003d4                ACE_Comp2_Rise_IRQHandler
+                0x200003d6                ACE_Comp3_Rise_IRQHandler
+                0x200003d8                ACE_Comp4_Rise_IRQHandler
+                0x200003da                ACE_Comp5_Rise_IRQHandler
+                0x200003dc                ACE_Comp6_Rise_IRQHandler
+                0x200003de                ACE_Comp7_Rise_IRQHandler
+                0x200003e0                ACE_Comp8_Rise_IRQHandler
+                0x200003e2                ACE_Comp9_Rise_IRQHandler
+                0x200003e4                ACE_Comp10_Rise_IRQHandler
+                0x200003e6                ACE_Comp11_Rise_IRQHandler
+                0x200003e8                ACE_ADC0_FifoFull_IRQHandler
+                0x200003ea                ACE_ADC0_FifoAFull_IRQHandler
+                0x200003ec                ACE_ADC0_FifoEmpty_IRQHandler
+                0x200003ee                ACE_ADC1_FifoFull_IRQHandler
+                0x200003f0                ACE_ADC1_FifoAFull_IRQHandler
+                0x200003f2                ACE_ADC1_FifoEmpty_IRQHandler
+                0x200003f4                ACE_ADC2_FifoFull_IRQHandler
+                0x200003f6                ACE_ADC2_FifoAFull_IRQHandler
+                0x200003f8                ACE_ADC2_FifoEmpty_IRQHandler
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x20000470       0x30 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .text.MSS_GPIO_set_outputs
+                0x200004a0       0x20 ./main.o
+ .text.main     0x200004c0      0x1dc ./main.o
+                0x200004c0                main
+ .text._exit    0x2000069c        0xc C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x2000069c                _exit
+ .text._write_r
+                0x200006a8       0x20 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x200006a8                _write_r
+ .text._sbrk    0x200006c8       0x94 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x200006c8                _sbrk
+ .text.NVIC_ClearPendingIRQ
+                0x2000075c       0x3c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_init
+                0x20000798      0x204 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000798                MSS_UART_init
+ .text.MSS_UART_polled_tx
+                0x2000099c       0xe4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x2000099c                MSS_UART_polled_tx
+ .text.MSS_UART_polled_tx_string
+                0x20000a80       0xd0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000a80                MSS_UART_polled_tx_string
+ .text.MSS_UART_isr
+                0x20000b50      0x11c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.default_tx_handler
+                0x20000c6c      0x108 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.UART0_IRQHandler
+                0x20000d74       0x2c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000d74                UART0_IRQHandler
+ .text.UART1_IRQHandler
+                0x20000da0       0x2c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000da0                UART1_IRQHandler
+ .text.NVIC_ClearPendingIRQ
+                0x20000dcc       0x3c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_init
+                0x20000e08       0x6c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+                0x20000e08                MSS_GPIO_init
+ .text.MSS_GPIO_config
+                0x20000e74       0x3c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+                0x20000e74                MSS_GPIO_config
+ .text.ace_init_convert
+                0x20000eb0      0x1b4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+                0x20000eb0                ace_init_convert
+ .text.ACE_convert_to_mV
+                0x20001064      0x100 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+                0x20001064                ACE_convert_to_mV
+ .text.ACE_get_channel_name
+                0x20001164       0x38 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+                0x20001164                ACE_get_channel_name
+ .text.NVIC_ClearPendingIRQ
+                0x2000119c       0x3c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ace_init_flags
+                0x200011d8       0xcc C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x200011d8                ace_init_flags
+ .text.ACE_get_flag_status
+                0x200012a4       0x90 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x200012a4                ACE_get_flag_status
+ .text.process_flag_irq
+                0x20001334      0x170 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_PPE_Flag0_IRQHandler
+                0x200014a4       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x200014a4                ACE_PPE_Flag0_IRQHandler
+ .text.ACE_PPE_Flag1_IRQHandler
+                0x200014cc       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x200014cc                ACE_PPE_Flag1_IRQHandler
+ .text.ACE_PPE_Flag2_IRQHandler
+                0x200014f4       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x200014f4                ACE_PPE_Flag2_IRQHandler
+ .text.ACE_PPE_Flag3_IRQHandler
+                0x2000151c       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x2000151c                ACE_PPE_Flag3_IRQHandler
+ .text.ACE_PPE_Flag4_IRQHandler
+                0x20001544       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x20001544                ACE_PPE_Flag4_IRQHandler
+ .text.ACE_PPE_Flag5_IRQHandler
+                0x2000156c       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x2000156c                ACE_PPE_Flag5_IRQHandler
+ .text.ACE_PPE_Flag6_IRQHandler
+                0x20001594       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x20001594                ACE_PPE_Flag6_IRQHandler
+ .text.ACE_PPE_Flag7_IRQHandler
+                0x200015bc       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x200015bc                ACE_PPE_Flag7_IRQHandler
+ .text.ACE_PPE_Flag8_IRQHandler
+                0x200015e4       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x200015e4                ACE_PPE_Flag8_IRQHandler
+ .text.ACE_PPE_Flag9_IRQHandler
+                0x2000160c       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x2000160c                ACE_PPE_Flag9_IRQHandler
+ .text.ACE_PPE_Flag10_IRQHandler
+                0x20001634       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x20001634                ACE_PPE_Flag10_IRQHandler
+ .text.ACE_PPE_Flag11_IRQHandler
+                0x2000165c       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x2000165c                ACE_PPE_Flag11_IRQHandler
+ .text.ACE_PPE_Flag12_IRQHandler
+                0x20001684       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x20001684                ACE_PPE_Flag12_IRQHandler
+ .text.ACE_PPE_Flag13_IRQHandler
+                0x200016ac       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x200016ac                ACE_PPE_Flag13_IRQHandler
+ .text.ACE_PPE_Flag14_IRQHandler
+                0x200016d4       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x200016d4                ACE_PPE_Flag14_IRQHandler
+ .text.ACE_PPE_Flag15_IRQHandler
+                0x200016fc       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x200016fc                ACE_PPE_Flag15_IRQHandler
+ .text.ACE_PPE_Flag16_IRQHandler
+                0x20001724       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x20001724                ACE_PPE_Flag16_IRQHandler
+ .text.ACE_PPE_Flag17_IRQHandler
+                0x2000174c       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x2000174c                ACE_PPE_Flag17_IRQHandler
+ .text.ACE_PPE_Flag18_IRQHandler
+                0x20001774       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x20001774                ACE_PPE_Flag18_IRQHandler
+ .text.ACE_PPE_Flag19_IRQHandler
+                0x2000179c       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x2000179c                ACE_PPE_Flag19_IRQHandler
+ .text.ACE_PPE_Flag20_IRQHandler
+                0x200017c4       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x200017c4                ACE_PPE_Flag20_IRQHandler
+ .text.ACE_PPE_Flag21_IRQHandler
+                0x200017ec       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x200017ec                ACE_PPE_Flag21_IRQHandler
+ .text.ACE_PPE_Flag22_IRQHandler
+                0x20001814       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x20001814                ACE_PPE_Flag22_IRQHandler
+ .text.ACE_PPE_Flag23_IRQHandler
+                0x2000183c       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x2000183c                ACE_PPE_Flag23_IRQHandler
+ .text.ACE_PPE_Flag24_IRQHandler
+                0x20001864       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x20001864                ACE_PPE_Flag24_IRQHandler
+ .text.ACE_PPE_Flag25_IRQHandler
+                0x2000188c       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x2000188c                ACE_PPE_Flag25_IRQHandler
+ .text.ACE_PPE_Flag26_IRQHandler
+                0x200018b4       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x200018b4                ACE_PPE_Flag26_IRQHandler
+ .text.ACE_PPE_Flag27_IRQHandler
+                0x200018dc       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x200018dc                ACE_PPE_Flag27_IRQHandler
+ .text.ACE_PPE_Flag28_IRQHandler
+                0x20001904       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x20001904                ACE_PPE_Flag28_IRQHandler
+ .text.ACE_PPE_Flag29_IRQHandler
+                0x2000192c       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x2000192c                ACE_PPE_Flag29_IRQHandler
+ .text.ACE_PPE_Flag30_IRQHandler
+                0x20001954       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x20001954                ACE_PPE_Flag30_IRQHandler
+ .text.ACE_PPE_Flag31_IRQHandler
+                0x2000197c       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x2000197c                ACE_PPE_Flag31_IRQHandler
+ .text.ACE_init
+                0x200019a4       0x10 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+                0x200019a4                ACE_init
+ .text.ACE_get_ppe_sample
+                0x200019b4       0x54 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+                0x200019b4                ACE_get_ppe_sample
+ .text.SystemInit
+                0x20001a08        0xc C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20001a08                SystemInit
+ .text.SystemCoreClockUpdate
+                0x20001a14      0x150 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20001a14                SystemCoreClockUpdate
+ .text.GetSystemClock
+                0x20001b64       0xe8 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .text          0x20001c4c      0x370 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubdf3.o)
+                0x20001c4c                __aeabi_drsub
+                0x20001c54                __aeabi_dsub
+                0x20001c54                __subdf3
+                0x20001c58                __aeabi_dadd
+                0x20001c58                __adddf3
+                0x20001ed0                __floatunsidf
+                0x20001ed0                __aeabi_ui2d
+                0x20001ef0                __floatsidf
+                0x20001ef0                __aeabi_i2d
+                0x20001f14                __aeabi_f2d
+                0x20001f14                __extendsfdf2
+                0x20001f50                __floatundidf
+                0x20001f50                __aeabi_ul2d
+                0x20001f60                __floatdidf
+                0x20001f60                __aeabi_l2d
+ .text          0x20001fbc      0x21c c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubsf3.o)
+                0x20001fbc                __aeabi_frsub
+                0x20001fc4                __subsf3
+                0x20001fc4                __aeabi_fsub
+                0x20001fc8                __aeabi_fadd
+                0x20001fc8                __addsf3
+                0x20002128                __aeabi_ui2f
+                0x20002128                __floatunsisf
+                0x20002130                __aeabi_i2f
+                0x20002130                __floatsisf
+                0x2000214c                __aeabi_ul2f
+                0x2000214c                __floatundisf
+                0x2000215c                __aeabi_l2f
+                0x2000215c                __floatdisf
+ .text          0x200021d8      0x2a0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivsf3.o)
+                0x200021d8                __mulsf3
+                0x200021d8                __aeabi_fmul
+                0x20002340                __aeabi_fdiv
+                0x20002340                __divsf3
+ .text          0x20002478       0x50 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+                0x20002478                __libc_init_array
+ .text          0x200024c8       0xdc c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-snprintf.o)
+                0x200024c8                snprintf
+                0x2000253c                _snprintf_r
+ .text          0x200025a4     0x15a8 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o)
+                0x200026c0                _svfprintf_r
+ *fill*         0x20003b4c        0x4 00
+ .text          0x20003b50      0xfb8 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
+                0x20003c70                _dtoa_r
+ .text          0x20004b08      0x268 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o)
+                0x20004b08                _malloc_trim_r
+                0x20004bb0                _free_r
+ .text          0x20004d70       0x74 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+                0x20004d70                __locale_charset
+                0x20004d7c                _localeconv_r
+                0x20004d84                localeconv
+                0x20004d8c                _setlocale_r
+                0x20004dd4                setlocale
+ .text          0x20004de4       0x20 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-malloc.o)
+                0x20004de4                free
+                0x20004df4                malloc
+ .text          0x20004e04      0x5a4 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
+                0x20004e04                _malloc_r
+ .text          0x200053a8       0x74 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
+                0x200053a8                memchr
+ .text          0x2000541c      0x190 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+                0x2000541c                memcpy
+ .text          0x200055ac       0xb8 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memmove.o)
+                0x200055ac                memmove
+ .text          0x20005664        0x8 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mlock.o)
+                0x20005664                __malloc_lock
+                0x20005668                __malloc_unlock
+ .text          0x2000566c      0x958 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
+                0x2000566c                __hi0bits
+                0x200056ac                __lo0bits
+                0x20005710                __mcmp
+                0x20005750                __ulp
+                0x2000579c                __b2d
+                0x20005844                __ratio
+                0x200058a4                _mprec_log10
+                0x200058dc                __copybits
+                0x2000592c                __any_on
+                0x20005984                _Bfree
+                0x200059bc                _Balloc
+                0x20005a28                __d2b
+                0x20005af8                __mdiff
+                0x20005bf0                __lshift
+                0x20005cac                __multiply
+                0x20005de0                __i2b
+                0x20005df4                __multadd
+                0x20005e7c                __pow5mult
+                0x20005f28                __s2b
+ .text          0x20005fc4      0x3b4 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reallocr.o)
+                0x20005fc4                _realloc_r
+ .text          0x20006378       0x24 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isinfd.o)
+                0x20006378                __isinfd
+ .text          0x2000639c       0x1c c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isnand.o)
+                0x2000639c                __isnand
+ .text          0x200063b8       0x28 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
+                0x200063b8                _sbrk_r
+ .text          0x200063e0      0x1dc c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+                0x200063e0                strcmp
+ .text          0x200065bc       0x60 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+                0x200065bc                strlen
+ .text          0x2000661c       0x5c c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-callocr.o)
+                0x2000661c                _calloc_r
+ .text          0x20006678       0xd4 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+                0x20006678                memset
+ *fill*         0x2000674c        0x4 00
+ .text          0x20006750      0x278 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o)
+                0x20006750                __aeabi_uidiv
+                0x20006750                __udivsi3
+                0x200069ac                __aeabi_uidivmod
+ .text          0x200069c8        0x4 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_dvmd_tls.o)
+                0x200069c8                __aeabi_idiv0
+                0x200069c8                __aeabi_ldiv0
+ .text          0x200069cc      0x424 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivdf3.o)
+                0x200069cc                __aeabi_dmul
+                0x200069cc                __muldf3
+                0x20006c20                __divdf3
+                0x20006c20                __aeabi_ddiv
+ .text          0x20006df0      0x110 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpdf2.o)
+                0x20006df0                __gtdf2
+                0x20006df0                __gedf2
+                0x20006df8                __ltdf2
+                0x20006df8                __ledf2
+                0x20006e00                __nedf2
+                0x20006e00                __eqdf2
+                0x20006e00                __cmpdf2
+                0x20006e7c                __aeabi_cdrcmple
+                0x20006e8c                __aeabi_cdcmpeq
+                0x20006e8c                __aeabi_cdcmple
+                0x20006e9c                __aeabi_dcmpeq
+                0x20006eb0                __aeabi_dcmplt
+                0x20006ec4                __aeabi_dcmple
+                0x20006ed8                __aeabi_dcmpge
+                0x20006eec                __aeabi_dcmpgt
+ .text          0x20006f00       0x50 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixdfsi.o)
+                0x20006f00                __aeabi_d2iz
+                0x20006f00                __fixdfsi
+ .text          0x20006f50       0x2c c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_aeabi_uldivmod.o)
+                0x20006f50                __aeabi_uldivmod
+ .text          0x20006f7c       0x58 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o)
+                0x20006f7c                __gnu_uldivmod_helper
+                0x20006fa8                __gnu_ldivmod_helper
+ .text          0x20006fd4      0x364 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
+                0x20006fd4                __divdi3
+ .text          0x20007338      0x300 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
+                0x20007338                __udivdi3
+ *(.plt)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+                0x20007638                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x20007638      0x144 ./main.o
+ .rodata        0x2000777c       0x1c C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .rodata.g_config_reg_lut
+                0x20007798       0x80 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .rodata.g_gpio_irqn_lut
+                0x20007818       0x40 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .rodata.channel_type_lut
+                0x20007858       0x30 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .rodata.channel_quad_lut
+                0x20007888       0x30 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .rodata.abps_channel_lut
+                0x200078b8       0x30 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .rodata.abps_idx_lut
+                0x200078e8       0x30 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .rodata.apbs_gain_lut
+                0x20007918        0x4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .rodata.apbs_range
+                0x2000791c        0x8 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .rodata.g_ppe_flags_regs_lut
+                0x20007924       0x14 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .rodata.flags_irq_enable_regs_lut
+                0x20007938       0x14 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .rodata.flags_irq_status_regs_lut
+                0x2000794c       0x14 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .rodata.flags_irq_clear_regs_lut
+                0x20007960       0x14 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .rodata.C.18.2576
+                0x20007974       0x10 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .rodata.g_ace_channel_0_name
+                0x20007984        0xc C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+                0x20007984                g_ace_channel_0_name
+ .rodata.g_channel_0_flags_lut
+                0x20007990        0x8 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+                0x20007990                g_channel_0_flags_lut
+ .rodata.g_ace_ppe_flag_0_name
+                0x20007998       0x18 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+                0x20007998                g_ace_ppe_flag_0_name
+ .rodata.g_ace_ppe_flag_1_name
+                0x200079b0       0x18 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+                0x200079b0                g_ace_ppe_flag_1_name
+ .rodata.g_ace_ppe_flag_2_name
+                0x200079c8       0x18 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+                0x200079c8                g_ace_ppe_flag_2_name
+ .rodata.g_ace_ppe_flag_3_name
+                0x200079e0       0x18 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+                0x200079e0                g_ace_ppe_flag_3_name
+ .rodata.str1.4
+                0x200079f8        0x2 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+                                  0x4 (size before relaxing)
+ *fill*         0x200079fa        0x2 00
+ .rodata        0x200079fc       0x20 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o)
+ .rodata.str1.4
+                0x20007a1c       0x42 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o)
+                                 0x44 (size before relaxing)
+ *fill*         0x20007a5e        0x2 00
+ .rodata.str1.4
+                0x20007a60       0x10 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
+                                 0x14 (size before relaxing)
+ .rodata        0x20007a70       0x34 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+ .rodata.str1.4
+                0x20007aa4       0x10 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+                                 0x18 (size before relaxing)
+ *fill*         0x20007ab4        0x4 00
+ .rodata        0x20007ab8      0x128 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
+                0x20007ab8                __mprec_tens
+                0x20007b90                __mprec_bigtens
+                0x20007bb8                __mprec_tinytens
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ *(.gcc_except_table)
+ *(.eh_frame_hdr)
+ *(.eh_frame)
+ *(.init)
+ .init          0x20007be0        0x4 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+                0x20007be0                _init
+ .init          0x20007be4        0x8 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ *(.fini)
+ .fini          0x20007bec        0x4 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+                0x20007bec                _fini
+ .fini          0x20007bf0        0x8 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+                0x20007bf8                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x20007bf8                PROVIDE (__preinit_array_end, .)
+                0x20007bf8                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x20007bf8        0x4 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+                0x20007bfc                PROVIDE (__init_array_end, .)
+                0x20007bfc                PROVIDE (__fini_array_start, .)
+ *(.fini_array)
+ .fini_array    0x20007bfc        0x4 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x20007c00                PROVIDE (__fini_array_end, .)
+                0x20007c00                __exidx_start = .
+
+.v4_bx          0x20007c00        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.exidx      0x20007c00        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x20007c00        0x8 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x20007c08        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
+                                  0x8 (size before relaxing)
+                0x20007c08                __exidx_end = .
+                0x20007c08                _etext = .
+                0x20007c08                PROVIDE (__text_end, .)
+
+.data           0x20007c08      0x578
+                0x20007c08                __data_load = LOADADDR (.data)
+                0x20007c08                _sidata = LOADADDR (.data)
+                0x20007c08                __data_start = .
+                0x20007c08                _sdata = .
+ *(.jcr)
+ .jcr           0x20007c08        0x0 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .jcr           0x20007c08        0x4 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ *(.got.plt)
+ *(.got)
+ *(.shdata)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.SystemFrequency
+                0x20007c0c        0x4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20007c0c                SystemFrequency
+ .data.SystemCoreClock
+                0x20007c10        0x4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20007c10                SystemCoreClock
+ .data.g_FrequencyPCLK0
+                0x20007c14        0x4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20007c14                g_FrequencyPCLK0
+ .data.g_FrequencyPCLK1
+                0x20007c18        0x4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20007c18                g_FrequencyPCLK1
+ .data.g_FrequencyACE
+                0x20007c1c        0x4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20007c1c                g_FrequencyACE
+ .data.g_FrequencyFPGA
+                0x20007c20        0x4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20007c20                g_FrequencyFPGA
+ .data.g_ace_adc_config
+                0x20007c24        0x8 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+                0x20007c24                g_ace_adc_config
+ .data.g_ace_channel_desc_table
+                0x20007c2c       0x10 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+                0x20007c2c                g_ace_channel_desc_table
+ .data.g_ppe_flags_desc_table
+                0x20007c3c       0x40 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+                0x20007c3c                g_ppe_flags_desc_table
+ .data          0x20007c7c       0xf4 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+                0x20007c7c                _impure_ptr
+ .data          0x20007d70      0x410 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
+                0x20007d70                __malloc_av_
+                0x20008178                __malloc_sbrk_base
+                0x2000817c                __malloc_trim_threshold
+                0x20008180                . = ALIGN (0x4)
+                0x20008180                _edata = .
+
+.bss            0x20008180      0x3c8
+                0x20008180                __bss_start__ = .
+                0x20008180                _sbss = .
+ *(.shbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x20008180        0x1 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ *fill*         0x20008181        0x3 00
+ .bss.heap_end.2220
+                0x20008184        0x4 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .bss.g_gdec_lut
+                0x20008188        0xc C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .bss.channel_type_lut_h
+                0x20008194        0x4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .bss.g_ppe_flag_handles_lut
+                0x20008198       0xa0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .bss.g_ppe_flags_isr_lut
+                0x20008238      0x280 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .bss.g_ppe_global_flags_isr
+                0x200084b8        0x4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .bss.g_ppe_channel_flags_isr_lut
+                0x200084bc        0x4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .bss           0x200084c0       0x34 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
+                0x200084c0                __malloc_top_pad
+                0x200084c4                __malloc_current_mallinfo
+                0x200084ec                __malloc_max_sbrked_mem
+                0x200084f0                __malloc_max_total_mem
+ *(COMMON)
+ COMMON         0x200084f4       0x50 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x200084f4                g_mss_uart1
+                0x2000851c                g_mss_uart0
+ COMMON         0x20008544        0x4 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
+                0x20008544                errno
+                0x20008548                . = ALIGN (0x8)
+                0x20008548                __bss_end__ = .
+                0x20008548                _end = .
+                0x20008548                __end = _end
+                0x20008548                _ebss = .
+                0x20008548                PROVIDE (end, .)
+
+.stack          0x20008548     0x3000
+                0x20008548                . = ALIGN (0x4)
+                0x20009548                . = (. + PROCESS_STACK_SIZE)
+ *fill*         0x20008548     0x1000 00
+                0x20009548                . = ALIGN (0x4)
+                0x2000b548                . = (. + MAIN_STACK_SIZE)
+ *fill*         0x20009548     0x2000 00
+                0x2000b548                . = ALIGN (0x4)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.comment        0x00000000      0x183
+ .comment       0x00000000       0x2b ./main.o
+ .comment       0x0000002b       0x2b C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .comment       0x00000056       0x2b C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .comment       0x00000081       0x2b C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .comment       0x000000ac       0x2b C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .comment       0x000000d7       0x2b C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .comment       0x00000102       0x2b C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .comment       0x0000012d       0x2b C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .comment       0x00000158       0x2b C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+
+.debug_aranges  0x00000000      0x5b8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 ./main.o
+ .debug_aranges
+                0x00000028       0xa8 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_aranges
+                0x000000d0       0xd8 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_aranges
+                0x000001a8       0x60 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .debug_aranges
+                0x00000208       0xb0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .debug_aranges
+                0x000002b8      0x1f0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .debug_aranges
+                0x000004a8       0xe0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .debug_aranges
+                0x00000588       0x30 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+
+.debug_pubnames
+                0x00000000     0x114b
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x1b ./main.o
+ .debug_pubnames
+                0x0000001b       0xeb C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_pubnames
+                0x00000106      0x21c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_pubnames
+                0x00000322       0xb1 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .debug_pubnames
+                0x000003d3      0x1ec C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .debug_pubnames
+                0x000005bf      0x65f C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .debug_pubnames
+                0x00000c1e      0x292 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .debug_pubnames
+                0x00000eb0       0xb4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_pubnames
+                0x00000f64      0x1e7 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+
+.debug_info     0x00000000     0xa974
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xecf ./main.o
+ .debug_info    0x00000ecf      0x6bf C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_info    0x0000158e     0x15a4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_info    0x00002b32     0x1114 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .debug_info    0x00003c46     0x1aa2 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .debug_info    0x000056e8     0x2846 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .debug_info    0x00007f2e     0x1afb C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .debug_info    0x00009a29      0x53c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_info    0x00009f65      0xa0f C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+
+.debug_abbrev   0x00000000      0xdff
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x1a6 ./main.o
+ .debug_abbrev  0x000001a6      0x130 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_abbrev  0x000002d6      0x245 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_abbrev  0x0000051b      0x181 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .debug_abbrev  0x0000069c      0x191 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .debug_abbrev  0x0000082d      0x1d2 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .debug_abbrev  0x000009ff      0x225 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .debug_abbrev  0x00000c24      0x111 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_abbrev  0x00000d35       0xca C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+
+.debug_line     0x00000000     0x2d4b
+ *(.debug_line)
+ .debug_line    0x00000000      0x6f8 ./main.o
+ .debug_line    0x000006f8      0x49c C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_line    0x00000b94      0x5b9 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_line    0x0000114d      0x359 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .debug_line    0x000014a6      0x508 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .debug_line    0x000019ae      0x8f8 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .debug_line    0x000022a6      0x63d C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .debug_line    0x000028e3      0x2ae C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_line    0x00002b91      0x1ba C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+
+.debug_frame    0x00000000     0x1bf0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x4c ./main.o
+ .debug_frame   0x0000004c      0x21c C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_frame   0x00000268      0x2e4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_frame   0x0000054c      0x118 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .debug_frame   0x00000664      0x24c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .debug_frame   0x000008b0      0x7b4 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .debug_frame   0x00001064      0x2cc C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .debug_frame   0x00001330       0x64 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_frame   0x00001394       0x20 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .debug_frame   0x000013b4       0x2c c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .debug_frame   0x000013e0       0x64 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-snprintf.o)
+ .debug_frame   0x00001444       0x28 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncmp.o)
+ .debug_frame   0x0000146c       0x68 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o)
+ .debug_frame   0x000014d4       0x64 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
+ .debug_frame   0x00001538       0x50 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o)
+ .debug_frame   0x00001588       0x6c c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+ .debug_frame   0x000015f4       0x30 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-malloc.o)
+ .debug_frame   0x00001624       0x3c c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
+ .debug_frame   0x00001660       0x28 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
+ .debug_frame   0x00001688       0x34 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x000016bc       0x2c c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memmove.o)
+ .debug_frame   0x000016e8       0x30 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mlock.o)
+ .debug_frame   0x00001718      0x240 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
+ .debug_frame   0x00001958       0x3c c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reallocr.o)
+ .debug_frame   0x00001994       0x20 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isinfd.o)
+ .debug_frame   0x000019b4       0x20 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isnand.o)
+ .debug_frame   0x000019d4       0x2c c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x00001a00       0x30 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+ .debug_frame   0x00001a30       0x20 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+ .debug_frame   0x00001a50       0x2c c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-callocr.o)
+ .debug_frame   0x00001a7c       0x28 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+ .debug_frame   0x00001aa4       0x64 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
+ .debug_frame   0x00001b08       0x20 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00001b28       0x50 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o)
+ .debug_frame   0x00001b78       0x3c c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
+ .debug_frame   0x00001bb4       0x3c c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
+
+.debug_str      0x00000000     0x443b
+ *(.debug_str)
+ .debug_str     0x00000000     0x1243 ./main.o
+                               0x12dd (size before relaxing)
+ .debug_str     0x00001243      0x254 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                                0x336 (size before relaxing)
+ .debug_str     0x00001497      0x628 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                               0x14c7 (size before relaxing)
+ .debug_str     0x00001abf      0x14f C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+                               0x129f (size before relaxing)
+ .debug_str     0x00001c0e      0xd87 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+                                0xfbd (size before relaxing)
+ .debug_str     0x00002995     0x1163 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                               0x28eb (size before relaxing)
+ .debug_str     0x00003af8      0x642 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+                               0x12eb (size before relaxing)
+ .debug_str     0x0000413a       0xf7 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                                0x46a (size before relaxing)
+ .debug_str     0x00004231      0x20a C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+                                0xe53 (size before relaxing)
+
+.debug_loc      0x00000000     0x204b
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x70 ./main.o
+ .debug_loc     0x00000070      0x3c6 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_loc     0x00000436      0x510 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_loc     0x00000946      0x1ef C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .debug_loc     0x00000b35      0x415 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .debug_loc     0x00000f4a      0xb2d C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .debug_loc     0x00001a77      0x53b C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .debug_loc     0x00001fb2       0x99 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+
+.debug_macinfo  0x00000000    0x359a1
+ *(.debug_macinfo)
+ .debug_macinfo
+                0x00000000     0x8e28 ./main.o
+ .debug_macinfo
+                0x00008e28     0x4bf0 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_macinfo
+                0x0000da18     0x63ca C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_macinfo
+                0x00013de2     0x5ce1 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .debug_macinfo
+                0x00019ac3     0x5b7c C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .debug_macinfo
+                0x0001f63f     0x7855 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .debug_macinfo
+                0x00026e94     0x77de C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .debug_macinfo
+                0x0002e672     0x5a7f C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_macinfo
+                0x000340f1     0x18b0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+.ARM.attributes
+                0x00000000       0x25
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x19 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .ARM.attributes
+                0x00000019       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .ARM.attributes
+                0x00000042       0x31 ./main.o
+ .ARM.attributes
+                0x00000073       0x21 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .ARM.attributes
+                0x00000094       0x31 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .ARM.attributes
+                0x000000c5       0x31 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .ARM.attributes
+                0x000000f6       0x31 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .ARM.attributes
+                0x00000127       0x31 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .ARM.attributes
+                0x00000158       0x31 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .ARM.attributes
+                0x00000189       0x31 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .ARM.attributes
+                0x000001ba       0x31 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .ARM.attributes
+                0x000001eb       0x31 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .ARM.attributes
+                0x0000021c       0x1b c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000237       0x1b c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x00000252       0x1b c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x0000026d       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000296       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000002bf       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x000002e8       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-snprintf.o)
+ .ARM.attributes
+                0x00000311       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncmp.o)
+ .ARM.attributes
+                0x0000033a       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-svfprintf.o)
+ .ARM.attributes
+                0x00000363       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
+ .ARM.attributes
+                0x0000038c       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o)
+ .ARM.attributes
+                0x000003b5       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+ .ARM.attributes
+                0x000003de       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x00000407       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x00000430       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
+ .ARM.attributes
+                0x00000459       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000482       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x000004ab       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x000004d4       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
+ .ARM.attributes
+                0x000004fd       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x00000526       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isinfd.o)
+ .ARM.attributes
+                0x0000054f       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isnand.o)
+ .ARM.attributes
+                0x00000578       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x000005a1       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x000005ca       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x000005f3       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-callocr.o)
+ .ARM.attributes
+                0x0000061c       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000645       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0000066e       0x1b c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000689       0x1b c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000006a4       0x1b c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x000006bf       0x1b c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x000006da       0x1b c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x000006f5       0x1b c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000710       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x00000739       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x00000762       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x0000078b       0x29 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .ARM.attributes
+                0x000007b4       0x19 c:/microsemi/libero_soc_v11.8/softconsole v3.4/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.isr_vector)
+OUTPUT(Voltage_Monitor_MSS_CM3_0_app elf32-littlearm)
+
+.debug_ranges   0x00000000      0x578
+ .debug_ranges  0x00000000       0x20 ./main.o
+ .debug_ranges  0x00000020       0xa0 C:/Project2/Module1/Voltage_Monitor/SoftConsole/Voltage_Monitor_MSS_CM3_0/Voltage_Monitor_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_ranges  0x000000c0       0xd0 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_ranges  0x00000190       0x58 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .debug_ranges  0x000001e8       0xa8 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .debug_ranges  0x00000290      0x1e8 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .debug_ranges  0x00000478       0xd8 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .debug_ranges  0x00000550       0x28 C:\Project2\Module1\Voltage_Monitor\SoftConsole\Voltage_Monitor_MSS_CM3_0\Voltage_Monitor_MSS_CM3_0_hw_platform\Debug\libVoltage_Monitor_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
