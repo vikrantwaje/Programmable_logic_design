@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Homework/PSOC/Project3/M4new4/simulation/modelsim
+vSolarTracker
+!s110 1525189709
+!i10b 1
+!s100 <6lUXFU_1UD_ih<RWXE3F2
+IioUCOG2LnGzI?8BSZ2ed71
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1525189506
+8F:/Homework/PSOC/Project3/M4new4/SolarTracker.v
+FF:/Homework/PSOC/Project3/M4new4/SolarTracker.v
+L0 1
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1525189708.000000
+!s107 F:/Homework/PSOC/Project3/M4new4/SolarTracker.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Homework/PSOC/Project3/M4new4|F:/Homework/PSOC/Project3/M4new4/SolarTracker.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+F:/Homework/PSOC/Project3/M4new4
+tCvgOpt 0
+n@solar@tracker

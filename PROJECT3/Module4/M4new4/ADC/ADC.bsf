@@ -1,0 +1,162 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 224 384)
+	(text "ADC" (rect 99 -1 121 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 368 20 380)(font "Arial" ))
+	(port
+		(pt 0 104)
+		(input)
+		(text "ADC_SDAT" (rect 0 0 55 12)(font "Arial" (font_size 8)))
+		(text "ADC_SDAT" (rect 4 93 52 104)(font "Arial" (font_size 8)))
+		(line (pt 0 104)(pt 80 104)(line_width 1))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "CLOCK" (rect 0 0 34 12)(font "Arial" (font_size 8)))
+		(text "CLOCK" (rect 4 149 34 160)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 80 160)(line_width 1))
+	)
+	(port
+		(pt 0 352)
+		(input)
+		(text "RESET" (rect 0 0 34 12)(font "Arial" (font_size 8)))
+		(text "RESET" (rect 4 341 34 352)(font "Arial" (font_size 8)))
+		(line (pt 0 352)(pt 80 352)(line_width 1))
+	)
+	(port
+		(pt 0 72)
+		(output)
+		(text "ADC_SCLK" (rect 0 0 54 12)(font "Arial" (font_size 8)))
+		(text "ADC_SCLK" (rect 4 61 52 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 80 72)(line_width 1))
+	)
+	(port
+		(pt 0 88)
+		(output)
+		(text "ADC_CS_N" (rect 0 0 54 12)(font "Arial" (font_size 8)))
+		(text "ADC_CS_N" (rect 4 77 52 88)(font "Arial" (font_size 8)))
+		(line (pt 0 88)(pt 80 88)(line_width 1))
+	)
+	(port
+		(pt 0 120)
+		(output)
+		(text "ADC_SADDR" (rect 0 0 64 12)(font "Arial" (font_size 8)))
+		(text "ADC_SADDR" (rect 4 109 58 120)(font "Arial" (font_size 8)))
+		(line (pt 0 120)(pt 80 120)(line_width 1))
+	)
+	(port
+		(pt 0 200)
+		(output)
+		(text "CH0[11..0]" (rect 0 0 41 12)(font "Arial" (font_size 8)))
+		(text "CH0[11..0]" (rect 4 189 64 200)(font "Arial" (font_size 8)))
+		(line (pt 0 200)(pt 80 200)(line_width 3))
+	)
+	(port
+		(pt 0 216)
+		(output)
+		(text "CH1[11..0]" (rect 0 0 40 12)(font "Arial" (font_size 8)))
+		(text "CH1[11..0]" (rect 4 205 64 216)(font "Arial" (font_size 8)))
+		(line (pt 0 216)(pt 80 216)(line_width 3))
+	)
+	(port
+		(pt 0 232)
+		(output)
+		(text "CH2[11..0]" (rect 0 0 41 12)(font "Arial" (font_size 8)))
+		(text "CH2[11..0]" (rect 4 221 64 232)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 80 232)(line_width 3))
+	)
+	(port
+		(pt 0 248)
+		(output)
+		(text "CH3[11..0]" (rect 0 0 41 12)(font "Arial" (font_size 8)))
+		(text "CH3[11..0]" (rect 4 237 64 248)(font "Arial" (font_size 8)))
+		(line (pt 0 248)(pt 80 248)(line_width 3))
+	)
+	(port
+		(pt 0 264)
+		(output)
+		(text "CH4[11..0]" (rect 0 0 42 12)(font "Arial" (font_size 8)))
+		(text "CH4[11..0]" (rect 4 253 64 264)(font "Arial" (font_size 8)))
+		(line (pt 0 264)(pt 80 264)(line_width 3))
+	)
+	(port
+		(pt 0 280)
+		(output)
+		(text "CH5[11..0]" (rect 0 0 41 12)(font "Arial" (font_size 8)))
+		(text "CH5[11..0]" (rect 4 269 64 280)(font "Arial" (font_size 8)))
+		(line (pt 0 280)(pt 80 280)(line_width 3))
+	)
+	(port
+		(pt 0 296)
+		(output)
+		(text "CH6[11..0]" (rect 0 0 41 12)(font "Arial" (font_size 8)))
+		(text "CH6[11..0]" (rect 4 285 64 296)(font "Arial" (font_size 8)))
+		(line (pt 0 296)(pt 80 296)(line_width 3))
+	)
+	(port
+		(pt 0 312)
+		(output)
+		(text "CH7[11..0]" (rect 0 0 41 12)(font "Arial" (font_size 8)))
+		(text "CH7[11..0]" (rect 4 301 64 312)(font "Arial" (font_size 8)))
+		(line (pt 0 312)(pt 80 312)(line_width 3))
+	)
+	(drawing
+		(text "adc_signals" (rect 12 43 90 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "SCLK" (rect 85 67 194 144)(font "Arial" (color 0 0 0)))
+		(text "CS_N" (rect 85 83 194 176)(font "Arial" (color 0 0 0)))
+		(text "SDAT" (rect 85 99 194 208)(font "Arial" (color 0 0 0)))
+		(text "SADDR" (rect 85 115 200 240)(font "Arial" (color 0 0 0)))
+		(text "clk" (rect 65 131 148 275)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 85 155 188 320)(font "Arial" (color 0 0 0)))
+		(text "readings" (rect 31 171 110 355)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "CH0" (rect 85 195 188 400)(font "Arial" (color 0 0 0)))
+		(text "CH1" (rect 85 211 188 432)(font "Arial" (color 0 0 0)))
+		(text "CH2" (rect 85 227 188 464)(font "Arial" (color 0 0 0)))
+		(text "CH3" (rect 85 243 188 496)(font "Arial" (color 0 0 0)))
+		(text "CH4" (rect 85 259 188 528)(font "Arial" (color 0 0 0)))
+		(text "CH5" (rect 85 275 188 560)(font "Arial" (color 0 0 0)))
+		(text "CH6" (rect 85 291 188 592)(font "Arial" (color 0 0 0)))
+		(text "CH7" (rect 85 307 188 624)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 51 323 132 659)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset" (rect 85 347 200 704)(font "Arial" (color 0 0 0)))
+		(text " ADC " (rect 199 368 428 746)(font "Arial" ))
+		(line (pt 80 32)(pt 144 32)(line_width 1))
+		(line (pt 144 32)(pt 144 368)(line_width 1))
+		(line (pt 80 368)(pt 144 368)(line_width 1))
+		(line (pt 80 32)(pt 80 368)(line_width 1))
+		(line (pt 81 52)(pt 81 124)(line_width 1))
+		(line (pt 82 52)(pt 82 124)(line_width 1))
+		(line (pt 81 140)(pt 81 164)(line_width 1))
+		(line (pt 82 140)(pt 82 164)(line_width 1))
+		(line (pt 81 180)(pt 81 316)(line_width 1))
+		(line (pt 82 180)(pt 82 316)(line_width 1))
+		(line (pt 81 332)(pt 81 356)(line_width 1))
+		(line (pt 82 332)(pt 82 356)(line_width 1))
+		(line (pt 0 0)(pt 224 0)(line_width 1))
+		(line (pt 224 0)(pt 224 384)(line_width 1))
+		(line (pt 0 384)(pt 224 384)(line_width 1))
+		(line (pt 0 0)(pt 0 384)(line_width 1))
+	)
+)

@@ -1,0 +1,613 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'main1:u5|CLKOUT'
+Slack : -7.550
+TNS   : -106.384
+
+Type  : Slow 1100mV 85C Model Setup 'LAB2PART3:u4|CLKOUT'
+Slack : -6.712
+TNS   : -96.768
+
+Type  : Slow 1100mV 85C Model Setup 'main1:u3|CLKOUT'
+Slack : -6.446
+TNS   : -88.354
+
+Type  : Slow 1100mV 85C Model Setup 'LAB2PART3:u1|CLKOUT'
+Slack : -5.970
+TNS   : -84.501
+
+Type  : Slow 1100mV 85C Model Setup 'kEY'
+Slack : -5.681
+TNS   : -203.970
+
+Type  : Slow 1100mV 85C Model Setup 'LAB2PART3:u0|CLKOUT'
+Slack : -5.611
+TNS   : -78.578
+
+Type  : Slow 1100mV 85C Model Setup 'LAB2PART3:u2|CLKOUT'
+Slack : -5.580
+TNS   : -80.260
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -3.569
+TNS   : -94.114
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : -3.010
+TNS   : -3.842
+
+Type  : Slow 1100mV 85C Model Hold 'kEY'
+Slack : -2.436
+TNS   : -42.931
+
+Type  : Slow 1100mV 85C Model Hold 'LAB2PART3:u4|CLKOUT'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'main1:u5|CLKOUT'
+Slack : 0.400
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'LAB2PART3:u2|CLKOUT'
+Slack : 0.476
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'LAB2PART3:u1|CLKOUT'
+Slack : 0.487
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'main1:u3|CLKOUT'
+Slack : 0.491
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'LAB2PART3:u0|CLKOUT'
+Slack : 0.858
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'kEY'
+Slack : -4.390
+TNS   : -215.286
+
+Type  : Slow 1100mV 85C Model Recovery 'LAB2PART3:u2|CLKOUT'
+Slack : -4.292
+TNS   : -57.318
+
+Type  : Slow 1100mV 85C Model Recovery 'LAB2PART3:u1|CLKOUT'
+Slack : -4.284
+TNS   : -57.386
+
+Type  : Slow 1100mV 85C Model Recovery 'LAB2PART3:u4|CLKOUT'
+Slack : -4.227
+TNS   : -56.382
+
+Type  : Slow 1100mV 85C Model Recovery 'main1:u5|CLKOUT'
+Slack : -4.204
+TNS   : -56.718
+
+Type  : Slow 1100mV 85C Model Recovery 'main1:u3|CLKOUT'
+Slack : -4.121
+TNS   : -55.886
+
+Type  : Slow 1100mV 85C Model Recovery 'LAB2PART3:u0|CLKOUT'
+Slack : -3.879
+TNS   : -51.727
+
+Type  : Slow 1100mV 85C Model Removal 'kEY'
+Slack : 0.334
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'LAB2PART3:u0|CLKOUT'
+Slack : 1.400
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'LAB2PART3:u4|CLKOUT'
+Slack : 1.789
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'main1:u3|CLKOUT'
+Slack : 2.001
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'main1:u5|CLKOUT'
+Slack : 2.009
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'LAB2PART3:u2|CLKOUT'
+Slack : 2.160
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'LAB2PART3:u1|CLKOUT'
+Slack : 2.262
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.535
+TNS   : -20.498
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'LAB2PART3:u4|CLKOUT'
+Slack : -0.394
+TNS   : -9.211
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'LAB2PART3:u0|CLKOUT'
+Slack : -0.394
+TNS   : -8.979
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'main1:u5|CLKOUT'
+Slack : -0.394
+TNS   : -8.769
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'LAB2PART3:u2|CLKOUT'
+Slack : -0.394
+TNS   : -8.717
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'LAB2PART3:u1|CLKOUT'
+Slack : -0.394
+TNS   : -8.182
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'main1:u3|CLKOUT'
+Slack : -0.394
+TNS   : -8.048
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'kEY'
+Slack : -0.007
+TNS   : -0.013
+
+Type  : Slow 1100mV 0C Model Setup 'main1:u5|CLKOUT'
+Slack : -7.447
+TNS   : -104.876
+
+Type  : Slow 1100mV 0C Model Setup 'LAB2PART3:u4|CLKOUT'
+Slack : -6.683
+TNS   : -95.475
+
+Type  : Slow 1100mV 0C Model Setup 'main1:u3|CLKOUT'
+Slack : -6.493
+TNS   : -88.243
+
+Type  : Slow 1100mV 0C Model Setup 'LAB2PART3:u1|CLKOUT'
+Slack : -6.010
+TNS   : -84.612
+
+Type  : Slow 1100mV 0C Model Setup 'LAB2PART3:u2|CLKOUT'
+Slack : -5.672
+TNS   : -80.959
+
+Type  : Slow 1100mV 0C Model Setup 'LAB2PART3:u0|CLKOUT'
+Slack : -5.632
+TNS   : -78.840
+
+Type  : Slow 1100mV 0C Model Setup 'kEY'
+Slack : -5.471
+TNS   : -199.422
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -3.345
+TNS   : -92.376
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -2.891
+TNS   : -3.751
+
+Type  : Slow 1100mV 0C Model Hold 'kEY'
+Slack : -2.494
+TNS   : -45.060
+
+Type  : Slow 1100mV 0C Model Hold 'main1:u5|CLKOUT'
+Slack : 0.346
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'LAB2PART3:u4|CLKOUT'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'LAB2PART3:u1|CLKOUT'
+Slack : 0.461
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'LAB2PART3:u2|CLKOUT'
+Slack : 0.506
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'main1:u3|CLKOUT'
+Slack : 0.533
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'LAB2PART3:u0|CLKOUT'
+Slack : 0.860
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'kEY'
+Slack : -4.289
+TNS   : -210.598
+
+Type  : Slow 1100mV 0C Model Recovery 'LAB2PART3:u2|CLKOUT'
+Slack : -4.196
+TNS   : -56.071
+
+Type  : Slow 1100mV 0C Model Recovery 'LAB2PART3:u1|CLKOUT'
+Slack : -4.183
+TNS   : -56.091
+
+Type  : Slow 1100mV 0C Model Recovery 'LAB2PART3:u4|CLKOUT'
+Slack : -4.119
+TNS   : -54.981
+
+Type  : Slow 1100mV 0C Model Recovery 'main1:u5|CLKOUT'
+Slack : -4.081
+TNS   : -55.397
+
+Type  : Slow 1100mV 0C Model Recovery 'main1:u3|CLKOUT'
+Slack : -4.026
+TNS   : -54.781
+
+Type  : Slow 1100mV 0C Model Recovery 'LAB2PART3:u0|CLKOUT'
+Slack : -3.786
+TNS   : -50.685
+
+Type  : Slow 1100mV 0C Model Removal 'kEY'
+Slack : 0.284
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'LAB2PART3:u0|CLKOUT'
+Slack : 1.474
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'LAB2PART3:u4|CLKOUT'
+Slack : 1.833
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'main1:u5|CLKOUT'
+Slack : 2.036
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'main1:u3|CLKOUT'
+Slack : 2.048
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'LAB2PART3:u2|CLKOUT'
+Slack : 2.178
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'LAB2PART3:u1|CLKOUT'
+Slack : 2.279
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.501
+TNS   : -21.501
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'LAB2PART3:u0|CLKOUT'
+Slack : -0.394
+TNS   : -8.890
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'LAB2PART3:u4|CLKOUT'
+Slack : -0.394
+TNS   : -8.875
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'main1:u5|CLKOUT'
+Slack : -0.394
+TNS   : -8.604
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'LAB2PART3:u2|CLKOUT'
+Slack : -0.394
+TNS   : -8.547
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'LAB2PART3:u1|CLKOUT'
+Slack : -0.394
+TNS   : -8.078
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'main1:u3|CLKOUT'
+Slack : -0.394
+TNS   : -7.960
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'kEY'
+Slack : 0.007
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'main1:u5|CLKOUT'
+Slack : -4.657
+TNS   : -65.739
+
+Type  : Fast 1100mV 85C Model Setup 'LAB2PART3:u4|CLKOUT'
+Slack : -4.017
+TNS   : -58.023
+
+Type  : Fast 1100mV 85C Model Setup 'main1:u3|CLKOUT'
+Slack : -3.869
+TNS   : -53.820
+
+Type  : Fast 1100mV 85C Model Setup 'kEY'
+Slack : -3.652
+TNS   : -116.702
+
+Type  : Fast 1100mV 85C Model Setup 'LAB2PART3:u1|CLKOUT'
+Slack : -3.591
+TNS   : -51.350
+
+Type  : Fast 1100mV 85C Model Setup 'LAB2PART3:u0|CLKOUT'
+Slack : -3.399
+TNS   : -47.400
+
+Type  : Fast 1100mV 85C Model Setup 'LAB2PART3:u2|CLKOUT'
+Slack : -3.386
+TNS   : -47.244
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -2.634
+TNS   : -44.054
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : -1.836
+TNS   : -2.244
+
+Type  : Fast 1100mV 85C Model Hold 'kEY'
+Slack : -1.639
+TNS   : -28.639
+
+Type  : Fast 1100mV 85C Model Hold 'LAB2PART3:u4|CLKOUT'
+Slack : -0.133
+TNS   : -0.285
+
+Type  : Fast 1100mV 85C Model Hold 'main1:u3|CLKOUT'
+Slack : -0.027
+TNS   : -0.044
+
+Type  : Fast 1100mV 85C Model Hold 'main1:u5|CLKOUT'
+Slack : 0.008
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'LAB2PART3:u2|CLKOUT'
+Slack : 0.013
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'LAB2PART3:u1|CLKOUT'
+Slack : 0.053
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'LAB2PART3:u0|CLKOUT'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'LAB2PART3:u2|CLKOUT'
+Slack : -2.841
+TNS   : -37.622
+
+Type  : Fast 1100mV 85C Model Recovery 'LAB2PART3:u1|CLKOUT'
+Slack : -2.792
+TNS   : -37.621
+
+Type  : Fast 1100mV 85C Model Recovery 'main1:u5|CLKOUT'
+Slack : -2.750
+TNS   : -37.020
+
+Type  : Fast 1100mV 85C Model Recovery 'LAB2PART3:u4|CLKOUT'
+Slack : -2.750
+TNS   : -36.710
+
+Type  : Fast 1100mV 85C Model Recovery 'main1:u3|CLKOUT'
+Slack : -2.683
+TNS   : -36.303
+
+Type  : Fast 1100mV 85C Model Recovery 'kEY'
+Slack : -2.672
+TNS   : -126.312
+
+Type  : Fast 1100mV 85C Model Recovery 'LAB2PART3:u0|CLKOUT'
+Slack : -2.569
+TNS   : -33.919
+
+Type  : Fast 1100mV 85C Model Removal 'kEY'
+Slack : 0.082
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'LAB2PART3:u0|CLKOUT'
+Slack : 0.551
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'LAB2PART3:u4|CLKOUT'
+Slack : 0.822
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'main1:u3|CLKOUT'
+Slack : 0.985
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'main1:u5|CLKOUT'
+Slack : 0.998
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'LAB2PART3:u2|CLKOUT'
+Slack : 1.110
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'LAB2PART3:u1|CLKOUT'
+Slack : 1.146
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.498
+TNS   : -6.243
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'kEY'
+Slack : -0.164
+TNS   : -11.147
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'LAB2PART3:u4|CLKOUT'
+Slack : -0.060
+TNS   : -0.179
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'LAB2PART3:u0|CLKOUT'
+Slack : -0.050
+TNS   : -0.264
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'main1:u5|CLKOUT'
+Slack : -0.045
+TNS   : -0.045
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'LAB2PART3:u2|CLKOUT'
+Slack : 0.023
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'main1:u3|CLKOUT'
+Slack : 0.027
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'LAB2PART3:u1|CLKOUT'
+Slack : 0.065
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'main1:u5|CLKOUT'
+Slack : -4.333
+TNS   : -61.405
+
+Type  : Fast 1100mV 0C Model Setup 'LAB2PART3:u4|CLKOUT'
+Slack : -3.767
+TNS   : -54.562
+
+Type  : Fast 1100mV 0C Model Setup 'main1:u3|CLKOUT'
+Slack : -3.690
+TNS   : -51.226
+
+Type  : Fast 1100mV 0C Model Setup 'LAB2PART3:u1|CLKOUT'
+Slack : -3.408
+TNS   : -48.959
+
+Type  : Fast 1100mV 0C Model Setup 'LAB2PART3:u0|CLKOUT'
+Slack : -3.254
+TNS   : -45.552
+
+Type  : Fast 1100mV 0C Model Setup 'LAB2PART3:u2|CLKOUT'
+Slack : -3.222
+TNS   : -45.460
+
+Type  : Fast 1100mV 0C Model Setup 'kEY'
+Slack : -3.114
+TNS   : -102.849
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -2.157
+TNS   : -38.054
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -1.784
+TNS   : -2.314
+
+Type  : Fast 1100mV 0C Model Hold 'kEY'
+Slack : -1.634
+TNS   : -30.113
+
+Type  : Fast 1100mV 0C Model Hold 'LAB2PART3:u4|CLKOUT'
+Slack : -0.126
+TNS   : -0.287
+
+Type  : Fast 1100mV 0C Model Hold 'main1:u3|CLKOUT'
+Slack : -0.041
+TNS   : -0.083
+
+Type  : Fast 1100mV 0C Model Hold 'main1:u5|CLKOUT'
+Slack : -0.037
+TNS   : -0.037
+
+Type  : Fast 1100mV 0C Model Hold 'LAB2PART3:u2|CLKOUT'
+Slack : -0.016
+TNS   : -0.016
+
+Type  : Fast 1100mV 0C Model Hold 'LAB2PART3:u1|CLKOUT'
+Slack : 0.004
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'LAB2PART3:u0|CLKOUT'
+Slack : 0.399
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'LAB2PART3:u2|CLKOUT'
+Slack : -2.684
+TNS   : -35.617
+
+Type  : Fast 1100mV 0C Model Recovery 'LAB2PART3:u1|CLKOUT'
+Slack : -2.633
+TNS   : -35.658
+
+Type  : Fast 1100mV 0C Model Recovery 'LAB2PART3:u4|CLKOUT'
+Slack : -2.596
+TNS   : -34.753
+
+Type  : Fast 1100mV 0C Model Recovery 'main1:u5|CLKOUT'
+Slack : -2.592
+TNS   : -35.037
+
+Type  : Fast 1100mV 0C Model Recovery 'main1:u3|CLKOUT'
+Slack : -2.543
+TNS   : -34.535
+
+Type  : Fast 1100mV 0C Model Recovery 'LAB2PART3:u0|CLKOUT'
+Slack : -2.442
+TNS   : -32.393
+
+Type  : Fast 1100mV 0C Model Recovery 'kEY'
+Slack : -2.421
+TNS   : -112.471
+
+Type  : Fast 1100mV 0C Model Removal 'kEY'
+Slack : 0.059
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'LAB2PART3:u0|CLKOUT'
+Slack : 0.589
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'LAB2PART3:u4|CLKOUT'
+Slack : 0.824
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'main1:u3|CLKOUT'
+Slack : 0.974
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'main1:u5|CLKOUT'
+Slack : 0.979
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'LAB2PART3:u2|CLKOUT'
+Slack : 1.072
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'LAB2PART3:u1|CLKOUT'
+Slack : 1.116
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.455
+TNS   : -5.828
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'kEY'
+Slack : -0.142
+TNS   : -9.242
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'LAB2PART3:u4|CLKOUT'
+Slack : -0.009
+TNS   : -0.024
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'main1:u5|CLKOUT'
+Slack : -0.004
+TNS   : -0.004
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'LAB2PART3:u0|CLKOUT'
+Slack : 0.001
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'main1:u3|CLKOUT'
+Slack : 0.055
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'LAB2PART3:u2|CLKOUT'
+Slack : 0.056
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'LAB2PART3:u1|CLKOUT'
+Slack : 0.083
+TNS   : 0.000
+
+------------------------------------------------------------

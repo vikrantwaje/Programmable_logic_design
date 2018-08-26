@@ -1,0 +1,21 @@
+|Lab1Part3
+U[0] => Mux1.IN0
+U[1] => Mux0.IN0
+V[0] => Mux1.IN1
+V[1] => Mux0.IN1
+W[0] => Mux1.IN2
+W[0] => Mux1.IN3
+W[1] => Mux0.IN2
+W[1] => Mux0.IN3
+S[0] => Mux0.IN5
+S[0] => Mux1.IN5
+S[0] => S_STATUS[0].DATAIN
+S[1] => Mux0.IN4
+S[1] => Mux1.IN4
+S[1] => S_STATUS[1].DATAIN
+S_STATUS[0] << S[0].DB_MAX_OUTPUT_PORT_TYPE
+S_STATUS[1] << S[1].DB_MAX_OUTPUT_PORT_TYPE
+M[0] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
+M[1] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

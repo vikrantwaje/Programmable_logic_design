@@ -1,0 +1,676 @@
+Analysis & Synthesis report for main
+Mon Apr 16 21:15:16 2018
+Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Logic Cells Representing Combinational Loops
+  9. Registers Removed During Synthesis
+ 10. General Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Parameter Settings for User Entity Instance: Top-level Entity: |main
+ 13. Parameter Settings for User Entity Instance: LAB2PART3:u0
+ 14. Parameter Settings for User Entity Instance: LAB2PART3:u1
+ 15. Parameter Settings for User Entity Instance: LAB2PART3:u2
+ 16. Parameter Settings for User Entity Instance: main1:u3
+ 17. Parameter Settings for User Entity Instance: LAB2PART3:u4
+ 18. Parameter Settings for User Entity Instance: main1:u5
+ 19. Port Connectivity Checks: "main1:u5"
+ 20. Port Connectivity Checks: "LAB2PART3:u4"
+ 21. Port Connectivity Checks: "main1:u3"
+ 22. Port Connectivity Checks: "LAB2PART3:u2"
+ 23. Port Connectivity Checks: "LAB2PART3:u1"
+ 24. Port Connectivity Checks: "LAB2PART3:u0"
+ 25. Post-Synthesis Netlist Statistics for Top Partition
+ 26. Elapsed Time Per Partition
+ 27. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Mon Apr 16 21:15:16 2018       ;
+; Quartus Prime Version           ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
+; Revision Name                   ; main                                        ;
+; Top-level Entity Name           ; Main                                        ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 116                                         ;
+; Total pins                      ; 55                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
+; Top-level entity name                                                           ; main               ; main               ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation      ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; OpenCore Plus hardware evaluation                                               ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; PowerPlay Power Optimization During Synthesis                                   ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 2           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
++----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                 ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                          ; Library ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------+---------+
+; main.vhd                         ; yes             ; User VHDL File  ; F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd ;         ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------+---------+
+
+
++---------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                         ;
++---------------------------------------------+-----------------------+
+; Resource                                    ; Usage                 ;
++---------------------------------------------+-----------------------+
+; Estimate of Logic utilization (ALMs needed) ; 262                   ;
+;                                             ;                       ;
+; Combinational ALUT usage for logic          ; 432                   ;
+;     -- 7 input functions                    ; 0                     ;
+;     -- 6 input functions                    ; 92                    ;
+;     -- 5 input functions                    ; 93                    ;
+;     -- 4 input functions                    ; 100                   ;
+;     -- <=3 input functions                  ; 147                   ;
+;                                             ;                       ;
+; Dedicated logic registers                   ; 116                   ;
+;                                             ;                       ;
+; I/O pins                                    ; 55                    ;
+;                                             ;                       ;
+; Total DSP Blocks                            ; 0                     ;
+;                                             ;                       ;
+; Maximum fan-out node                        ; main1:u5|RCOUNT[6]~46 ;
+; Maximum fan-out                             ; 127                   ;
+; Total fan-out                               ; 2241                  ;
+; Average fan-out                             ; 3.41                  ;
++---------------------------------------------+-----------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                    ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+; |Main                      ; 432 (0)             ; 116 (0)                   ; 0                 ; 0          ; 55   ; 0            ; |Main               ; Main        ; work         ;
+;    |LAB2PART3:u0|          ; 86 (86)             ; 36 (36)                   ; 0                 ; 0          ; 0    ; 0            ; |Main|LAB2PART3:u0  ; LAB2PART3   ; work         ;
+;    |LAB2PART3:u1|          ; 59 (59)             ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |Main|LAB2PART3:u1  ; LAB2PART3   ; work         ;
+;    |LAB2PART3:u2|          ; 65 (65)             ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |Main|LAB2PART3:u2  ; LAB2PART3   ; work         ;
+;    |LAB2PART3:u4|          ; 72 (72)             ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |Main|LAB2PART3:u4  ; LAB2PART3   ; work         ;
+;    |main1:u3|              ; 65 (65)             ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |Main|main1:u3      ; main1       ; work         ;
+;    |main1:u5|              ; 85 (85)             ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |Main|main1:u5      ; main1       ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------------+
+; Logic Cells Representing Combinational Loops               ;
++--------------------------------------------------------+---+
+; Logic Cell Name                                        ;   ;
++--------------------------------------------------------+---+
+; LAB2PART3:u4|RCOUNT~1                                  ;   ;
+; main1:u5|RCOUNT~1                                      ;   ;
+; Number of logic cells representing combinational loops ; 2 ;
++--------------------------------------------------------+---+
+Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++--------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                             ;
++-----------------------------------------+--------------------------------------+
+; Register name                           ; Reason for Removal                   ;
++-----------------------------------------+--------------------------------------+
+; LAB2PART3:u1|COUNTER[19]                ; Merged with LAB2PART3:u0|COUNTER[19] ;
+; LAB2PART3:u2|COUNTER[19]                ; Merged with LAB2PART3:u0|COUNTER[19] ;
+; LAB2PART3:u4|COUNTER[19]                ; Merged with LAB2PART3:u0|COUNTER[19] ;
+; main1:u3|COUNTER[19]                    ; Merged with LAB2PART3:u0|COUNTER[19] ;
+; main1:u5|COUNTER[19]                    ; Merged with LAB2PART3:u0|COUNTER[19] ;
+; LAB2PART3:u1|COUNTER[18]                ; Merged with LAB2PART3:u0|COUNTER[18] ;
+; LAB2PART3:u2|COUNTER[18]                ; Merged with LAB2PART3:u0|COUNTER[18] ;
+; LAB2PART3:u4|COUNTER[18]                ; Merged with LAB2PART3:u0|COUNTER[18] ;
+; main1:u3|COUNTER[18]                    ; Merged with LAB2PART3:u0|COUNTER[18] ;
+; main1:u5|COUNTER[18]                    ; Merged with LAB2PART3:u0|COUNTER[18] ;
+; LAB2PART3:u1|COUNTER[17]                ; Merged with LAB2PART3:u0|COUNTER[17] ;
+; LAB2PART3:u2|COUNTER[17]                ; Merged with LAB2PART3:u0|COUNTER[17] ;
+; LAB2PART3:u4|COUNTER[17]                ; Merged with LAB2PART3:u0|COUNTER[17] ;
+; main1:u3|COUNTER[17]                    ; Merged with LAB2PART3:u0|COUNTER[17] ;
+; main1:u5|COUNTER[17]                    ; Merged with LAB2PART3:u0|COUNTER[17] ;
+; LAB2PART3:u1|COUNTER[16]                ; Merged with LAB2PART3:u0|COUNTER[16] ;
+; LAB2PART3:u2|COUNTER[16]                ; Merged with LAB2PART3:u0|COUNTER[16] ;
+; LAB2PART3:u4|COUNTER[16]                ; Merged with LAB2PART3:u0|COUNTER[16] ;
+; main1:u3|COUNTER[16]                    ; Merged with LAB2PART3:u0|COUNTER[16] ;
+; main1:u5|COUNTER[16]                    ; Merged with LAB2PART3:u0|COUNTER[16] ;
+; LAB2PART3:u1|COUNTER[15]                ; Merged with LAB2PART3:u0|COUNTER[15] ;
+; LAB2PART3:u2|COUNTER[15]                ; Merged with LAB2PART3:u0|COUNTER[15] ;
+; LAB2PART3:u4|COUNTER[15]                ; Merged with LAB2PART3:u0|COUNTER[15] ;
+; main1:u3|COUNTER[15]                    ; Merged with LAB2PART3:u0|COUNTER[15] ;
+; main1:u5|COUNTER[15]                    ; Merged with LAB2PART3:u0|COUNTER[15] ;
+; LAB2PART3:u1|COUNTER[14]                ; Merged with LAB2PART3:u0|COUNTER[14] ;
+; LAB2PART3:u2|COUNTER[14]                ; Merged with LAB2PART3:u0|COUNTER[14] ;
+; LAB2PART3:u4|COUNTER[14]                ; Merged with LAB2PART3:u0|COUNTER[14] ;
+; main1:u3|COUNTER[14]                    ; Merged with LAB2PART3:u0|COUNTER[14] ;
+; main1:u5|COUNTER[14]                    ; Merged with LAB2PART3:u0|COUNTER[14] ;
+; LAB2PART3:u1|COUNTER[13]                ; Merged with LAB2PART3:u0|COUNTER[13] ;
+; LAB2PART3:u2|COUNTER[13]                ; Merged with LAB2PART3:u0|COUNTER[13] ;
+; LAB2PART3:u4|COUNTER[13]                ; Merged with LAB2PART3:u0|COUNTER[13] ;
+; main1:u3|COUNTER[13]                    ; Merged with LAB2PART3:u0|COUNTER[13] ;
+; main1:u5|COUNTER[13]                    ; Merged with LAB2PART3:u0|COUNTER[13] ;
+; LAB2PART3:u1|COUNTER[12]                ; Merged with LAB2PART3:u0|COUNTER[12] ;
+; LAB2PART3:u2|COUNTER[12]                ; Merged with LAB2PART3:u0|COUNTER[12] ;
+; LAB2PART3:u4|COUNTER[12]                ; Merged with LAB2PART3:u0|COUNTER[12] ;
+; main1:u3|COUNTER[12]                    ; Merged with LAB2PART3:u0|COUNTER[12] ;
+; main1:u5|COUNTER[12]                    ; Merged with LAB2PART3:u0|COUNTER[12] ;
+; LAB2PART3:u1|COUNTER[11]                ; Merged with LAB2PART3:u0|COUNTER[11] ;
+; LAB2PART3:u2|COUNTER[11]                ; Merged with LAB2PART3:u0|COUNTER[11] ;
+; LAB2PART3:u4|COUNTER[11]                ; Merged with LAB2PART3:u0|COUNTER[11] ;
+; main1:u3|COUNTER[11]                    ; Merged with LAB2PART3:u0|COUNTER[11] ;
+; main1:u5|COUNTER[11]                    ; Merged with LAB2PART3:u0|COUNTER[11] ;
+; LAB2PART3:u1|COUNTER[10]                ; Merged with LAB2PART3:u0|COUNTER[10] ;
+; LAB2PART3:u2|COUNTER[10]                ; Merged with LAB2PART3:u0|COUNTER[10] ;
+; LAB2PART3:u4|COUNTER[10]                ; Merged with LAB2PART3:u0|COUNTER[10] ;
+; main1:u3|COUNTER[10]                    ; Merged with LAB2PART3:u0|COUNTER[10] ;
+; main1:u5|COUNTER[10]                    ; Merged with LAB2PART3:u0|COUNTER[10] ;
+; LAB2PART3:u1|COUNTER[9]                 ; Merged with LAB2PART3:u0|COUNTER[9]  ;
+; LAB2PART3:u2|COUNTER[9]                 ; Merged with LAB2PART3:u0|COUNTER[9]  ;
+; LAB2PART3:u4|COUNTER[9]                 ; Merged with LAB2PART3:u0|COUNTER[9]  ;
+; main1:u3|COUNTER[9]                     ; Merged with LAB2PART3:u0|COUNTER[9]  ;
+; main1:u5|COUNTER[9]                     ; Merged with LAB2PART3:u0|COUNTER[9]  ;
+; LAB2PART3:u1|COUNTER[8]                 ; Merged with LAB2PART3:u0|COUNTER[8]  ;
+; LAB2PART3:u2|COUNTER[8]                 ; Merged with LAB2PART3:u0|COUNTER[8]  ;
+; LAB2PART3:u4|COUNTER[8]                 ; Merged with LAB2PART3:u0|COUNTER[8]  ;
+; main1:u3|COUNTER[8]                     ; Merged with LAB2PART3:u0|COUNTER[8]  ;
+; main1:u5|COUNTER[8]                     ; Merged with LAB2PART3:u0|COUNTER[8]  ;
+; LAB2PART3:u1|COUNTER[7]                 ; Merged with LAB2PART3:u0|COUNTER[7]  ;
+; LAB2PART3:u2|COUNTER[7]                 ; Merged with LAB2PART3:u0|COUNTER[7]  ;
+; LAB2PART3:u4|COUNTER[7]                 ; Merged with LAB2PART3:u0|COUNTER[7]  ;
+; main1:u3|COUNTER[7]                     ; Merged with LAB2PART3:u0|COUNTER[7]  ;
+; main1:u5|COUNTER[7]                     ; Merged with LAB2PART3:u0|COUNTER[7]  ;
+; LAB2PART3:u1|COUNTER[6]                 ; Merged with LAB2PART3:u0|COUNTER[6]  ;
+; LAB2PART3:u2|COUNTER[6]                 ; Merged with LAB2PART3:u0|COUNTER[6]  ;
+; LAB2PART3:u4|COUNTER[6]                 ; Merged with LAB2PART3:u0|COUNTER[6]  ;
+; main1:u3|COUNTER[6]                     ; Merged with LAB2PART3:u0|COUNTER[6]  ;
+; main1:u5|COUNTER[6]                     ; Merged with LAB2PART3:u0|COUNTER[6]  ;
+; LAB2PART3:u1|COUNTER[5]                 ; Merged with LAB2PART3:u0|COUNTER[5]  ;
+; LAB2PART3:u2|COUNTER[5]                 ; Merged with LAB2PART3:u0|COUNTER[5]  ;
+; LAB2PART3:u4|COUNTER[5]                 ; Merged with LAB2PART3:u0|COUNTER[5]  ;
+; main1:u3|COUNTER[5]                     ; Merged with LAB2PART3:u0|COUNTER[5]  ;
+; main1:u5|COUNTER[5]                     ; Merged with LAB2PART3:u0|COUNTER[5]  ;
+; LAB2PART3:u1|COUNTER[4]                 ; Merged with LAB2PART3:u0|COUNTER[4]  ;
+; LAB2PART3:u2|COUNTER[4]                 ; Merged with LAB2PART3:u0|COUNTER[4]  ;
+; LAB2PART3:u4|COUNTER[4]                 ; Merged with LAB2PART3:u0|COUNTER[4]  ;
+; main1:u3|COUNTER[4]                     ; Merged with LAB2PART3:u0|COUNTER[4]  ;
+; main1:u5|COUNTER[4]                     ; Merged with LAB2PART3:u0|COUNTER[4]  ;
+; LAB2PART3:u1|COUNTER[3]                 ; Merged with LAB2PART3:u0|COUNTER[3]  ;
+; LAB2PART3:u2|COUNTER[3]                 ; Merged with LAB2PART3:u0|COUNTER[3]  ;
+; LAB2PART3:u4|COUNTER[3]                 ; Merged with LAB2PART3:u0|COUNTER[3]  ;
+; main1:u3|COUNTER[3]                     ; Merged with LAB2PART3:u0|COUNTER[3]  ;
+; main1:u5|COUNTER[3]                     ; Merged with LAB2PART3:u0|COUNTER[3]  ;
+; LAB2PART3:u1|COUNTER[2]                 ; Merged with LAB2PART3:u0|COUNTER[2]  ;
+; LAB2PART3:u2|COUNTER[2]                 ; Merged with LAB2PART3:u0|COUNTER[2]  ;
+; LAB2PART3:u4|COUNTER[2]                 ; Merged with LAB2PART3:u0|COUNTER[2]  ;
+; main1:u3|COUNTER[2]                     ; Merged with LAB2PART3:u0|COUNTER[2]  ;
+; main1:u5|COUNTER[2]                     ; Merged with LAB2PART3:u0|COUNTER[2]  ;
+; LAB2PART3:u1|COUNTER[1]                 ; Merged with LAB2PART3:u0|COUNTER[1]  ;
+; LAB2PART3:u2|COUNTER[1]                 ; Merged with LAB2PART3:u0|COUNTER[1]  ;
+; LAB2PART3:u4|COUNTER[1]                 ; Merged with LAB2PART3:u0|COUNTER[1]  ;
+; main1:u3|COUNTER[1]                     ; Merged with LAB2PART3:u0|COUNTER[1]  ;
+; main1:u5|COUNTER[1]                     ; Merged with LAB2PART3:u0|COUNTER[1]  ;
+; LAB2PART3:u1|COUNTER[0]                 ; Merged with LAB2PART3:u0|COUNTER[0]  ;
+; LAB2PART3:u2|COUNTER[0]                 ; Merged with LAB2PART3:u0|COUNTER[0]  ;
+; LAB2PART3:u4|COUNTER[0]                 ; Merged with LAB2PART3:u0|COUNTER[0]  ;
+; main1:u3|COUNTER[0]                     ; Merged with LAB2PART3:u0|COUNTER[0]  ;
+; main1:u5|COUNTER[0]                     ; Merged with LAB2PART3:u0|COUNTER[0]  ;
+; Total Number of Removed Registers = 100 ;                                      ;
++-----------------------------------------+--------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 116   ;
+; Number of registers using Synchronous Clear  ; 62    ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 84    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 54    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                            ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
+; 4:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |Main|main1:u5|COUNT[4]     ;
+; 4:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |Main|LAB2PART3:u0|COUNT[0] ;
+; 4:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |Main|LAB2PART3:u1|COUNT[5] ;
+; 4:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |Main|LAB2PART3:u2|COUNT[5] ;
+; 4:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |Main|main1:u3|COUNT[6]     ;
+; 4:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |Main|LAB2PART3:u4|COUNT[6] ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; No         ; |Main|main1:u5|RCOUNT       ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; No         ; |Main|LAB2PART3:u0|RCOUNT   ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; No         ; |Main|LAB2PART3:u1|RCOUNT   ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; No         ; |Main|LAB2PART3:u2|RCOUNT   ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; No         ; |Main|main1:u3|RCOUNT       ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; No         ; |Main|LAB2PART3:u4|RCOUNT   ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |Main|LAB2PART3:u0|Q[6]     ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |Main|LAB2PART3:u1|Q[5]     ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |Main|LAB2PART3:u2|Q[6]     ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |Main|main1:u3|Q[6]         ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |Main|LAB2PART3:u4|Q[6]     ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |Main|main1:u5|Q[5]         ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |Main|LAB2PART3:u0|Q[2]     ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |Main|LAB2PART3:u1|Q[2]     ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |Main|LAB2PART3:u2|Q[2]     ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |Main|main1:u3|Q[2]         ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |Main|LAB2PART3:u4|Q[0]     ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |Main|main1:u5|Q[0]         ;
+; 7:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |Main|LAB2PART3:u0|Q[4]     ;
+; 7:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |Main|LAB2PART3:u1|Q[4]     ;
+; 7:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |Main|LAB2PART3:u2|Q[3]     ;
+; 7:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |Main|main1:u3|Q[4]         ;
+; 7:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |Main|LAB2PART3:u4|Q[3]     ;
+; 7:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |Main|main1:u5|Q[4]         ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |main ;
++----------------+-------+---------------------------------------------+
+; Parameter Name ; Value ; Type                                        ;
++----------------+-------+---------------------------------------------+
+; N              ; 7     ; Signed Integer                              ;
+; K              ; 10    ; Signed Integer                              ;
++----------------+-------+---------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LAB2PART3:u0 ;
++----------------+-------+----------------------------------+
+; Parameter Name ; Value ; Type                             ;
++----------------+-------+----------------------------------+
+; n              ; 7     ; Signed Integer                   ;
+; k              ; 10    ; Signed Integer                   ;
++----------------+-------+----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LAB2PART3:u1 ;
++----------------+-------+----------------------------------+
+; Parameter Name ; Value ; Type                             ;
++----------------+-------+----------------------------------+
+; n              ; 7     ; Signed Integer                   ;
+; k              ; 10    ; Signed Integer                   ;
++----------------+-------+----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LAB2PART3:u2 ;
++----------------+-------+----------------------------------+
+; Parameter Name ; Value ; Type                             ;
++----------------+-------+----------------------------------+
+; n              ; 7     ; Signed Integer                   ;
+; k              ; 10    ; Signed Integer                   ;
++----------------+-------+----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: main1:u3 ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; n              ; 7     ; Signed Integer               ;
+; k              ; 5     ; Signed Integer               ;
++----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LAB2PART3:u4 ;
++----------------+-------+----------------------------------+
+; Parameter Name ; Value ; Type                             ;
++----------------+-------+----------------------------------+
+; n              ; 7     ; Signed Integer                   ;
+; k              ; 10    ; Signed Integer                   ;
++----------------+-------+----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: main1:u5 ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; n              ; 7     ; Signed Integer               ;
+; k              ; 5     ; Signed Integer               ;
++----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------+
+; Port Connectivity Checks: "main1:u5"     ;
++--------+-------+----------+--------------+
+; Port   ; Type  ; Severity ; Details      ;
++--------+-------+----------+--------------+
+; count5 ; Input ; Info     ; Stuck at VCC ;
++--------+-------+----------+--------------+
+
+
++------------------------------------------+
+; Port Connectivity Checks: "LAB2PART3:u4" ;
++--------+-------+----------+--------------+
+; Port   ; Type  ; Severity ; Details      ;
++--------+-------+----------+--------------+
+; fifth  ; Input ; Info     ; Stuck at VCC ;
+; count9 ; Input ; Info     ; Stuck at VCC ;
++--------+-------+----------+--------------+
+
+
++------------------------------------------+
+; Port Connectivity Checks: "main1:u3"     ;
++--------+-------+----------+--------------+
+; Port   ; Type  ; Severity ; Details      ;
++--------+-------+----------+--------------+
+; fourth ; Input ; Info     ; Stuck at VCC ;
+; fifth  ; Input ; Info     ; Stuck at VCC ;
+; count5 ; Input ; Info     ; Stuck at GND ;
++--------+-------+----------+--------------+
+
+
++------------------------------------------+
+; Port Connectivity Checks: "LAB2PART3:u2" ;
++--------+-------+----------+--------------+
+; Port   ; Type  ; Severity ; Details      ;
++--------+-------+----------+--------------+
+; third  ; Input ; Info     ; Stuck at VCC ;
+; fourth ; Input ; Info     ; Stuck at VCC ;
+; fifth  ; Input ; Info     ; Stuck at VCC ;
+; count9 ; Input ; Info     ; Stuck at GND ;
++--------+-------+----------+--------------+
+
+
++------------------------------------------+
+; Port Connectivity Checks: "LAB2PART3:u1" ;
++--------+-------+----------+--------------+
+; Port   ; Type  ; Severity ; Details      ;
++--------+-------+----------+--------------+
+; second ; Input ; Info     ; Stuck at VCC ;
+; third  ; Input ; Info     ; Stuck at VCC ;
+; fourth ; Input ; Info     ; Stuck at VCC ;
+; fifth  ; Input ; Info     ; Stuck at VCC ;
+; count9 ; Input ; Info     ; Stuck at GND ;
++--------+-------+----------+--------------+
+
+
++------------------------------------------+
+; Port Connectivity Checks: "LAB2PART3:u0" ;
++--------+-------+----------+--------------+
+; Port   ; Type  ; Severity ; Details      ;
++--------+-------+----------+--------------+
+; first  ; Input ; Info     ; Stuck at VCC ;
+; second ; Input ; Info     ; Stuck at VCC ;
+; third  ; Input ; Info     ; Stuck at VCC ;
+; fourth ; Input ; Info     ; Stuck at VCC ;
+; fifth  ; Input ; Info     ; Stuck at VCC ;
+; count9 ; Input ; Info     ; Stuck at GND ;
++--------+-------+----------+--------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 116                         ;
+;     CLR               ; 42                          ;
+;     ENA               ; 12                          ;
+;     ENA CLR SCLR      ; 42                          ;
+;     SCLR              ; 20                          ;
+; arriav_lcell_comb     ; 438                         ;
+;     arith             ; 104                         ;
+;         1 data inputs ; 104                         ;
+;     normal            ; 334                         ;
+;         1 data inputs ; 12                          ;
+;         2 data inputs ; 18                          ;
+;         3 data inputs ; 19                          ;
+;         4 data inputs ; 100                         ;
+;         5 data inputs ; 93                          ;
+;         6 data inputs ; 92                          ;
+; boundary_port         ; 55                          ;
+;                       ;                             ;
+; Max LUT depth         ; 5.10                        ;
+; Average LUT depth     ; 3.01                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+    Info: Processing started: Mon Apr 16 21:15:02 2018
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off main -c main
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 6 design units, including 3 entities, in source file main.vhd
+    Info (12022): Found design unit 1: LAB2PART3-BEHAVIOURAL File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 28
+    Info (12022): Found design unit 2: main1-BEHAVIOURAL File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 140
+    Info (12022): Found design unit 3: main-behavioural File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 252
+    Info (12023): Found entity 1: LAB2PART3 File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 8
+    Info (12023): Found entity 2: main1 File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 120
+    Info (12023): Found entity 3: Main File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 233
+Info (12127): Elaborating entity "main" for the top level hierarchy
+Info (12128): Elaborating entity "LAB2PART3" for hierarchy "LAB2PART3:u0" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 308
+Warning (10492): VHDL Process Statement warning at main.vhd(52): signal "count9" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 52
+Warning (10492): VHDL Process Statement warning at main.vhd(54): signal "PREENABLE9" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 54
+Warning (10492): VHDL Process Statement warning at main.vhd(55): signal "sw" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 55
+Info (12128): Elaborating entity "main1" for hierarchy "main1:u3" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 311
+Warning (10492): VHDL Process Statement warning at main.vhd(162): signal "COUNT5" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 162
+Warning (10492): VHDL Process Statement warning at main.vhd(165): signal "PREENABLE5" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 165
+Warning (10492): VHDL Process Statement warning at main.vhd(166): signal "sw" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 166
+Warning (13004): Presettable and clearable registers converted to equivalent circuits with latches. Registers power-up to an undefined state, and DEVCLRn places the registers in an undefined state.
+    Warning (13310): Register "LAB2PART3:u0|RCOUNT[6]" is converted into an equivalent circuit using register "LAB2PART3:u0|RCOUNT[6]~_emulated" and latch "LAB2PART3:u0|RCOUNT[6]~2" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u0|RCOUNT[5]" is converted into an equivalent circuit using register "LAB2PART3:u0|RCOUNT[5]~_emulated" and latch "LAB2PART3:u0|RCOUNT[5]~6" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u0|RCOUNT[4]" is converted into an equivalent circuit using register "LAB2PART3:u0|RCOUNT[4]~_emulated" and latch "LAB2PART3:u0|RCOUNT[4]~10" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u0|RCOUNT[3]" is converted into an equivalent circuit using register "LAB2PART3:u0|RCOUNT[3]~_emulated" and latch "LAB2PART3:u0|RCOUNT[3]~14" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u0|RCOUNT[2]" is converted into an equivalent circuit using register "LAB2PART3:u0|RCOUNT[2]~_emulated" and latch "LAB2PART3:u0|RCOUNT[2]~18" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u0|RCOUNT[1]" is converted into an equivalent circuit using register "LAB2PART3:u0|RCOUNT[1]~_emulated" and latch "LAB2PART3:u0|RCOUNT[1]~22" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u0|RCOUNT[0]" is converted into an equivalent circuit using register "LAB2PART3:u0|RCOUNT[0]~_emulated" and latch "LAB2PART3:u0|RCOUNT[0]~26" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u1|RCOUNT[6]" is converted into an equivalent circuit using register "LAB2PART3:u1|RCOUNT[6]~_emulated" and latch "LAB2PART3:u1|RCOUNT[6]~2" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u1|RCOUNT[5]" is converted into an equivalent circuit using register "LAB2PART3:u1|RCOUNT[5]~_emulated" and latch "LAB2PART3:u1|RCOUNT[5]~6" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u1|RCOUNT[4]" is converted into an equivalent circuit using register "LAB2PART3:u1|RCOUNT[4]~_emulated" and latch "LAB2PART3:u1|RCOUNT[4]~10" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u1|RCOUNT[3]" is converted into an equivalent circuit using register "LAB2PART3:u1|RCOUNT[3]~_emulated" and latch "LAB2PART3:u1|RCOUNT[3]~14" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u1|RCOUNT[2]" is converted into an equivalent circuit using register "LAB2PART3:u1|RCOUNT[2]~_emulated" and latch "LAB2PART3:u1|RCOUNT[2]~18" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u1|RCOUNT[1]" is converted into an equivalent circuit using register "LAB2PART3:u1|RCOUNT[1]~_emulated" and latch "LAB2PART3:u1|RCOUNT[1]~22" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u1|RCOUNT[0]" is converted into an equivalent circuit using register "LAB2PART3:u1|RCOUNT[0]~_emulated" and latch "LAB2PART3:u1|RCOUNT[0]~26" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u2|RCOUNT[6]" is converted into an equivalent circuit using register "LAB2PART3:u2|RCOUNT[6]~_emulated" and latch "LAB2PART3:u2|RCOUNT[6]~2" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u2|RCOUNT[5]" is converted into an equivalent circuit using register "LAB2PART3:u2|RCOUNT[5]~_emulated" and latch "LAB2PART3:u2|RCOUNT[5]~6" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u2|RCOUNT[4]" is converted into an equivalent circuit using register "LAB2PART3:u2|RCOUNT[4]~_emulated" and latch "LAB2PART3:u2|RCOUNT[4]~10" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u2|RCOUNT[3]" is converted into an equivalent circuit using register "LAB2PART3:u2|RCOUNT[3]~_emulated" and latch "LAB2PART3:u2|RCOUNT[3]~14" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u2|RCOUNT[2]" is converted into an equivalent circuit using register "LAB2PART3:u2|RCOUNT[2]~_emulated" and latch "LAB2PART3:u2|RCOUNT[2]~18" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u2|RCOUNT[1]" is converted into an equivalent circuit using register "LAB2PART3:u2|RCOUNT[1]~_emulated" and latch "LAB2PART3:u2|RCOUNT[1]~22" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u2|RCOUNT[0]" is converted into an equivalent circuit using register "LAB2PART3:u2|RCOUNT[0]~_emulated" and latch "LAB2PART3:u2|RCOUNT[0]~26" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "main1:u3|RCOUNT[6]" is converted into an equivalent circuit using register "main1:u3|RCOUNT[6]~_emulated" and latch "main1:u3|RCOUNT[6]~2" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 164
+    Warning (13310): Register "main1:u3|RCOUNT[5]" is converted into an equivalent circuit using register "main1:u3|RCOUNT[5]~_emulated" and latch "main1:u3|RCOUNT[5]~6" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 164
+    Warning (13310): Register "main1:u3|RCOUNT[4]" is converted into an equivalent circuit using register "main1:u3|RCOUNT[4]~_emulated" and latch "main1:u3|RCOUNT[4]~10" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 164
+    Warning (13310): Register "main1:u3|RCOUNT[3]" is converted into an equivalent circuit using register "main1:u3|RCOUNT[3]~_emulated" and latch "main1:u3|RCOUNT[3]~14" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 164
+    Warning (13310): Register "main1:u3|RCOUNT[2]" is converted into an equivalent circuit using register "main1:u3|RCOUNT[2]~_emulated" and latch "main1:u3|RCOUNT[2]~18" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 164
+    Warning (13310): Register "main1:u3|RCOUNT[1]" is converted into an equivalent circuit using register "main1:u3|RCOUNT[1]~_emulated" and latch "main1:u3|RCOUNT[1]~22" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 164
+    Warning (13310): Register "main1:u3|RCOUNT[0]" is converted into an equivalent circuit using register "main1:u3|RCOUNT[0]~_emulated" and latch "main1:u3|RCOUNT[0]~26" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 164
+    Warning (13310): Register "LAB2PART3:u4|RCOUNT[6]" is converted into an equivalent circuit using register "LAB2PART3:u4|RCOUNT[6]~_emulated" and latch "LAB2PART3:u4|RCOUNT[6]~3" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u4|RCOUNT[5]" is converted into an equivalent circuit using register "LAB2PART3:u4|RCOUNT[5]~_emulated" and latch "LAB2PART3:u4|RCOUNT[5]~7" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u4|RCOUNT[4]" is converted into an equivalent circuit using register "LAB2PART3:u4|RCOUNT[4]~_emulated" and latch "LAB2PART3:u4|RCOUNT[4]~11" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u4|RCOUNT[3]" is converted into an equivalent circuit using register "LAB2PART3:u4|RCOUNT[3]~_emulated" and latch "LAB2PART3:u4|RCOUNT[3]~15" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u4|RCOUNT[2]" is converted into an equivalent circuit using register "LAB2PART3:u4|RCOUNT[2]~_emulated" and latch "LAB2PART3:u4|RCOUNT[2]~19" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u4|RCOUNT[1]" is converted into an equivalent circuit using register "LAB2PART3:u4|RCOUNT[1]~_emulated" and latch "LAB2PART3:u4|RCOUNT[1]~23" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "LAB2PART3:u4|RCOUNT[0]" is converted into an equivalent circuit using register "LAB2PART3:u4|RCOUNT[0]~_emulated" and latch "LAB2PART3:u4|RCOUNT[0]~27" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 53
+    Warning (13310): Register "main1:u5|RCOUNT[6]" is converted into an equivalent circuit using register "main1:u5|RCOUNT[6]~_emulated" and latch "main1:u5|RCOUNT[6]~3" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 164
+    Warning (13310): Register "main1:u5|RCOUNT[5]" is converted into an equivalent circuit using register "main1:u5|RCOUNT[5]~_emulated" and latch "main1:u5|RCOUNT[5]~7" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 164
+    Warning (13310): Register "main1:u5|RCOUNT[4]" is converted into an equivalent circuit using register "main1:u5|RCOUNT[4]~_emulated" and latch "main1:u5|RCOUNT[4]~11" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 164
+    Warning (13310): Register "main1:u5|RCOUNT[3]" is converted into an equivalent circuit using register "main1:u5|RCOUNT[3]~_emulated" and latch "main1:u5|RCOUNT[3]~15" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 164
+    Warning (13310): Register "main1:u5|RCOUNT[2]" is converted into an equivalent circuit using register "main1:u5|RCOUNT[2]~_emulated" and latch "main1:u5|RCOUNT[2]~19" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 164
+    Warning (13310): Register "main1:u5|RCOUNT[1]" is converted into an equivalent circuit using register "main1:u5|RCOUNT[1]~_emulated" and latch "main1:u5|RCOUNT[1]~23" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 164
+    Warning (13310): Register "main1:u5|RCOUNT[0]" is converted into an equivalent circuit using register "main1:u5|RCOUNT[0]~_emulated" and latch "main1:u5|RCOUNT[0]~27" File: F:/Homework/PSOC/Project3/Module1/Lab1part3a/main.vhd Line: 164
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 529 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 12 input pins
+    Info (21059): Implemented 43 output pins
+    Info (21061): Implemented 474 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 50 warnings
+    Info: Peak virtual memory: 762 megabytes
+    Info: Processing ended: Mon Apr 16 21:15:16 2018
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:28
+
+

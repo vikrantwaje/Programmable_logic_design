@@ -1,0 +1,389 @@
+|Lab1Part6
+SW[0] => mux_2bit_6to1:U0.B[0]
+SW[0] => mux_2bit_6to1:U1.C[0]
+SW[0] => mux_2bit_6to1:U2.U[0]
+SW[0] => mux_2bit_6to1:U3.V[0]
+SW[0] => mux_2bit_6to1:U4.W[0]
+SW[0] => mux_2bit_6to1:U5.A[0]
+SW[1] => mux_2bit_6to1:U0.B[1]
+SW[1] => mux_2bit_6to1:U1.C[1]
+SW[1] => mux_2bit_6to1:U2.U[1]
+SW[1] => mux_2bit_6to1:U3.V[1]
+SW[1] => mux_2bit_6to1:U4.W[1]
+SW[1] => mux_2bit_6to1:U5.A[1]
+SW[2] => mux_2bit_6to1:U0.C[0]
+SW[2] => mux_2bit_6to1:U1.U[0]
+SW[2] => mux_2bit_6to1:U2.V[0]
+SW[2] => mux_2bit_6to1:U3.W[0]
+SW[2] => mux_2bit_6to1:U4.A[0]
+SW[2] => mux_2bit_6to1:U5.B[0]
+SW[3] => mux_2bit_6to1:U0.C[1]
+SW[3] => mux_2bit_6to1:U1.U[1]
+SW[3] => mux_2bit_6to1:U2.V[1]
+SW[3] => mux_2bit_6to1:U3.W[1]
+SW[3] => mux_2bit_6to1:U4.A[1]
+SW[3] => mux_2bit_6to1:U5.B[1]
+SW[4] => mux_2bit_6to1:U0.U[0]
+SW[4] => mux_2bit_6to1:U1.V[0]
+SW[4] => mux_2bit_6to1:U2.W[0]
+SW[4] => mux_2bit_6to1:U3.A[0]
+SW[4] => mux_2bit_6to1:U4.B[0]
+SW[4] => mux_2bit_6to1:U5.C[0]
+SW[5] => mux_2bit_6to1:U0.U[1]
+SW[5] => mux_2bit_6to1:U1.V[1]
+SW[5] => mux_2bit_6to1:U2.W[1]
+SW[5] => mux_2bit_6to1:U3.A[1]
+SW[5] => mux_2bit_6to1:U4.B[1]
+SW[5] => mux_2bit_6to1:U5.C[1]
+SW[6] => ~NO_FANOUT~
+SW[7] => mux_2bit_6to1:U0.S[0]
+SW[7] => mux_2bit_6to1:U1.S[0]
+SW[7] => mux_2bit_6to1:U2.S[0]
+SW[7] => mux_2bit_6to1:U3.S[0]
+SW[7] => mux_2bit_6to1:U4.S[0]
+SW[7] => mux_2bit_6to1:U5.S[0]
+SW[7] => LEDR[7].DATAIN
+SW[8] => mux_2bit_6to1:U0.S[1]
+SW[8] => mux_2bit_6to1:U1.S[1]
+SW[8] => mux_2bit_6to1:U2.S[1]
+SW[8] => mux_2bit_6to1:U3.S[1]
+SW[8] => mux_2bit_6to1:U4.S[1]
+SW[8] => mux_2bit_6to1:U5.S[1]
+SW[8] => LEDR[8].DATAIN
+SW[9] => mux_2bit_6to1:U0.S[2]
+SW[9] => mux_2bit_6to1:U1.S[2]
+SW[9] => mux_2bit_6to1:U2.S[2]
+SW[9] => mux_2bit_6to1:U3.S[2]
+SW[9] => mux_2bit_6to1:U4.S[2]
+SW[9] => mux_2bit_6to1:U5.S[2]
+SW[9] => LEDR[9].DATAIN
+LEDR[0] <= <GND>
+LEDR[1] <= <GND>
+LEDR[2] <= <GND>
+LEDR[3] <= <GND>
+LEDR[4] <= <GND>
+LEDR[5] <= <GND>
+LEDR[6] <= <GND>
+LEDR[7] <= SW[7].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[8] <= SW[8].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[9] <= SW[9].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[0] <= char_7seg:H0.Display[0]
+HEX0[1] <= char_7seg:H0.Display[1]
+HEX0[2] <= char_7seg:H0.Display[2]
+HEX0[3] <= char_7seg:H0.Display[3]
+HEX0[4] <= char_7seg:H0.Display[4]
+HEX0[5] <= char_7seg:H0.Display[5]
+HEX0[6] <= char_7seg:H0.Display[6]
+HEX1[0] <= char_7seg:H1.Display[0]
+HEX1[1] <= char_7seg:H1.Display[1]
+HEX1[2] <= char_7seg:H1.Display[2]
+HEX1[3] <= char_7seg:H1.Display[3]
+HEX1[4] <= char_7seg:H1.Display[4]
+HEX1[5] <= char_7seg:H1.Display[5]
+HEX1[6] <= char_7seg:H1.Display[6]
+HEX2[0] <= char_7seg:H2.Display[0]
+HEX2[1] <= char_7seg:H2.Display[1]
+HEX2[2] <= char_7seg:H2.Display[2]
+HEX2[3] <= char_7seg:H2.Display[3]
+HEX2[4] <= char_7seg:H2.Display[4]
+HEX2[5] <= char_7seg:H2.Display[5]
+HEX2[6] <= char_7seg:H2.Display[6]
+HEX3[0] <= char_7seg:H3.Display[0]
+HEX3[1] <= char_7seg:H3.Display[1]
+HEX3[2] <= char_7seg:H3.Display[2]
+HEX3[3] <= char_7seg:H3.Display[3]
+HEX3[4] <= char_7seg:H3.Display[4]
+HEX3[5] <= char_7seg:H3.Display[5]
+HEX3[6] <= char_7seg:H3.Display[6]
+HEX4[0] <= char_7seg:H4.Display[0]
+HEX4[1] <= char_7seg:H4.Display[1]
+HEX4[2] <= char_7seg:H4.Display[2]
+HEX4[3] <= char_7seg:H4.Display[3]
+HEX4[4] <= char_7seg:H4.Display[4]
+HEX4[5] <= char_7seg:H4.Display[5]
+HEX4[6] <= char_7seg:H4.Display[6]
+HEX5[0] <= char_7seg:H5.Display[0]
+HEX5[1] <= char_7seg:H5.Display[1]
+HEX5[2] <= char_7seg:H5.Display[2]
+HEX5[3] <= char_7seg:H5.Display[3]
+HEX5[4] <= char_7seg:H5.Display[4]
+HEX5[5] <= char_7seg:H5.Display[5]
+HEX5[6] <= char_7seg:H5.Display[6]
+
+
+|Lab1Part6|mux_2bit_6to1:U0
+A[0] => Mux1.IN0
+A[1] => Mux0.IN0
+B[0] => Mux1.IN1
+B[1] => Mux0.IN1
+C[0] => Mux1.IN2
+C[0] => Mux1.IN3
+C[0] => Mux1.IN4
+C[1] => Mux0.IN2
+C[1] => Mux0.IN3
+C[1] => Mux0.IN4
+U[0] => Mux1.IN5
+U[1] => Mux0.IN5
+V[0] => Mux1.IN6
+V[1] => Mux0.IN6
+W[0] => Mux1.IN7
+W[1] => Mux0.IN7
+S[0] => Mux0.IN10
+S[0] => Mux1.IN10
+S[1] => Mux0.IN9
+S[1] => Mux1.IN9
+S[2] => Mux0.IN8
+S[2] => Mux1.IN8
+M[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+M[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1Part6|mux_2bit_6to1:U1
+A[0] => Mux1.IN0
+A[1] => Mux0.IN0
+B[0] => Mux1.IN1
+B[1] => Mux0.IN1
+C[0] => Mux1.IN2
+C[0] => Mux1.IN3
+C[0] => Mux1.IN4
+C[1] => Mux0.IN2
+C[1] => Mux0.IN3
+C[1] => Mux0.IN4
+U[0] => Mux1.IN5
+U[1] => Mux0.IN5
+V[0] => Mux1.IN6
+V[1] => Mux0.IN6
+W[0] => Mux1.IN7
+W[1] => Mux0.IN7
+S[0] => Mux0.IN10
+S[0] => Mux1.IN10
+S[1] => Mux0.IN9
+S[1] => Mux1.IN9
+S[2] => Mux0.IN8
+S[2] => Mux1.IN8
+M[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+M[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1Part6|mux_2bit_6to1:U2
+A[0] => Mux1.IN0
+A[1] => Mux0.IN0
+B[0] => Mux1.IN1
+B[1] => Mux0.IN1
+C[0] => Mux1.IN2
+C[0] => Mux1.IN3
+C[0] => Mux1.IN4
+C[1] => Mux0.IN2
+C[1] => Mux0.IN3
+C[1] => Mux0.IN4
+U[0] => Mux1.IN5
+U[1] => Mux0.IN5
+V[0] => Mux1.IN6
+V[1] => Mux0.IN6
+W[0] => Mux1.IN7
+W[1] => Mux0.IN7
+S[0] => Mux0.IN10
+S[0] => Mux1.IN10
+S[1] => Mux0.IN9
+S[1] => Mux1.IN9
+S[2] => Mux0.IN8
+S[2] => Mux1.IN8
+M[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+M[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1Part6|mux_2bit_6to1:U3
+A[0] => Mux1.IN0
+A[1] => Mux0.IN0
+B[0] => Mux1.IN1
+B[1] => Mux0.IN1
+C[0] => Mux1.IN2
+C[0] => Mux1.IN3
+C[0] => Mux1.IN4
+C[1] => Mux0.IN2
+C[1] => Mux0.IN3
+C[1] => Mux0.IN4
+U[0] => Mux1.IN5
+U[1] => Mux0.IN5
+V[0] => Mux1.IN6
+V[1] => Mux0.IN6
+W[0] => Mux1.IN7
+W[1] => Mux0.IN7
+S[0] => Mux0.IN10
+S[0] => Mux1.IN10
+S[1] => Mux0.IN9
+S[1] => Mux1.IN9
+S[2] => Mux0.IN8
+S[2] => Mux1.IN8
+M[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+M[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1Part6|mux_2bit_6to1:U4
+A[0] => Mux1.IN0
+A[1] => Mux0.IN0
+B[0] => Mux1.IN1
+B[1] => Mux0.IN1
+C[0] => Mux1.IN2
+C[0] => Mux1.IN3
+C[0] => Mux1.IN4
+C[1] => Mux0.IN2
+C[1] => Mux0.IN3
+C[1] => Mux0.IN4
+U[0] => Mux1.IN5
+U[1] => Mux0.IN5
+V[0] => Mux1.IN6
+V[1] => Mux0.IN6
+W[0] => Mux1.IN7
+W[1] => Mux0.IN7
+S[0] => Mux0.IN10
+S[0] => Mux1.IN10
+S[1] => Mux0.IN9
+S[1] => Mux1.IN9
+S[2] => Mux0.IN8
+S[2] => Mux1.IN8
+M[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+M[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1Part6|mux_2bit_6to1:U5
+A[0] => Mux1.IN0
+A[1] => Mux0.IN0
+B[0] => Mux1.IN1
+B[1] => Mux0.IN1
+C[0] => Mux1.IN2
+C[0] => Mux1.IN3
+C[0] => Mux1.IN4
+C[1] => Mux0.IN2
+C[1] => Mux0.IN3
+C[1] => Mux0.IN4
+U[0] => Mux1.IN5
+U[1] => Mux0.IN5
+V[0] => Mux1.IN6
+V[1] => Mux0.IN6
+W[0] => Mux1.IN7
+W[1] => Mux0.IN7
+S[0] => Mux0.IN10
+S[0] => Mux1.IN10
+S[1] => Mux0.IN9
+S[1] => Mux1.IN9
+S[2] => Mux0.IN8
+S[2] => Mux1.IN8
+M[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+M[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1Part6|char_7seg:H0
+C[0] => Mux0.IN5
+C[0] => Mux1.IN5
+C[0] => Display[2].DATAIN
+C[0] => Display[1].DATAIN
+C[1] => Mux0.IN4
+C[1] => Mux1.IN4
+C[1] => Display[6].DATAIN
+C[1] => Display[4].DATAIN
+C[1] => Display[3].DATAIN
+Display[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Display[1] <= C[0].DB_MAX_OUTPUT_PORT_TYPE
+Display[2] <= C[0].DB_MAX_OUTPUT_PORT_TYPE
+Display[3] <= C[1].DB_MAX_OUTPUT_PORT_TYPE
+Display[4] <= C[1].DB_MAX_OUTPUT_PORT_TYPE
+Display[5] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+Display[6] <= C[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1Part6|char_7seg:H1
+C[0] => Mux0.IN5
+C[0] => Mux1.IN5
+C[0] => Display[2].DATAIN
+C[0] => Display[1].DATAIN
+C[1] => Mux0.IN4
+C[1] => Mux1.IN4
+C[1] => Display[6].DATAIN
+C[1] => Display[4].DATAIN
+C[1] => Display[3].DATAIN
+Display[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Display[1] <= C[0].DB_MAX_OUTPUT_PORT_TYPE
+Display[2] <= C[0].DB_MAX_OUTPUT_PORT_TYPE
+Display[3] <= C[1].DB_MAX_OUTPUT_PORT_TYPE
+Display[4] <= C[1].DB_MAX_OUTPUT_PORT_TYPE
+Display[5] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+Display[6] <= C[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1Part6|char_7seg:H2
+C[0] => Mux0.IN5
+C[0] => Mux1.IN5
+C[0] => Display[2].DATAIN
+C[0] => Display[1].DATAIN
+C[1] => Mux0.IN4
+C[1] => Mux1.IN4
+C[1] => Display[6].DATAIN
+C[1] => Display[4].DATAIN
+C[1] => Display[3].DATAIN
+Display[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Display[1] <= C[0].DB_MAX_OUTPUT_PORT_TYPE
+Display[2] <= C[0].DB_MAX_OUTPUT_PORT_TYPE
+Display[3] <= C[1].DB_MAX_OUTPUT_PORT_TYPE
+Display[4] <= C[1].DB_MAX_OUTPUT_PORT_TYPE
+Display[5] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+Display[6] <= C[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1Part6|char_7seg:H3
+C[0] => Mux0.IN5
+C[0] => Mux1.IN5
+C[0] => Display[2].DATAIN
+C[0] => Display[1].DATAIN
+C[1] => Mux0.IN4
+C[1] => Mux1.IN4
+C[1] => Display[6].DATAIN
+C[1] => Display[4].DATAIN
+C[1] => Display[3].DATAIN
+Display[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Display[1] <= C[0].DB_MAX_OUTPUT_PORT_TYPE
+Display[2] <= C[0].DB_MAX_OUTPUT_PORT_TYPE
+Display[3] <= C[1].DB_MAX_OUTPUT_PORT_TYPE
+Display[4] <= C[1].DB_MAX_OUTPUT_PORT_TYPE
+Display[5] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+Display[6] <= C[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1Part6|char_7seg:H4
+C[0] => Mux0.IN5
+C[0] => Mux1.IN5
+C[0] => Display[2].DATAIN
+C[0] => Display[1].DATAIN
+C[1] => Mux0.IN4
+C[1] => Mux1.IN4
+C[1] => Display[6].DATAIN
+C[1] => Display[4].DATAIN
+C[1] => Display[3].DATAIN
+Display[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Display[1] <= C[0].DB_MAX_OUTPUT_PORT_TYPE
+Display[2] <= C[0].DB_MAX_OUTPUT_PORT_TYPE
+Display[3] <= C[1].DB_MAX_OUTPUT_PORT_TYPE
+Display[4] <= C[1].DB_MAX_OUTPUT_PORT_TYPE
+Display[5] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+Display[6] <= C[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1Part6|char_7seg:H5
+C[0] => Mux0.IN5
+C[0] => Mux1.IN5
+C[0] => Display[2].DATAIN
+C[0] => Display[1].DATAIN
+C[1] => Mux0.IN4
+C[1] => Mux1.IN4
+C[1] => Display[6].DATAIN
+C[1] => Display[4].DATAIN
+C[1] => Display[3].DATAIN
+Display[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Display[1] <= C[0].DB_MAX_OUTPUT_PORT_TYPE
+Display[2] <= C[0].DB_MAX_OUTPUT_PORT_TYPE
+Display[3] <= C[1].DB_MAX_OUTPUT_PORT_TYPE
+Display[4] <= C[1].DB_MAX_OUTPUT_PORT_TYPE
+Display[5] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+Display[6] <= C[1].DB_MAX_OUTPUT_PORT_TYPE
+
+

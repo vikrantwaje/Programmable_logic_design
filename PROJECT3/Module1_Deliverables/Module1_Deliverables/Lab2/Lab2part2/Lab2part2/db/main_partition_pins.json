@@ -1,0 +1,109 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "enable31",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Q3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Q3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Q3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Q3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Q3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "Enable",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
