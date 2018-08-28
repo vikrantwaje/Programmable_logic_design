@@ -25,6 +25,6 @@ the fitter. The timing analysis was done using Microsemi Libero development soft
                  Anay Gondhalekar</h6>
 <h3>Evaluation of Altera DE-1 SOC and Xilinx Pynq Z1</h3>
 -Designed Real time Clock to display time on on seven segment leds of Altera DE1-SOC. The design included modules such as clock divider, counters written in VHDL.
-- Developed Morse code generator for DE-1 SOC using Quartus Prime FPGA development environment
-- Evaluated the Pynq Z1 board by using the on board switches to blink various LED's on board using 
+<br>- Developed Morse code generator for DE-1 SOC using Quartus Prime FPGA development environment
+<br>- Evaluated the Pynq Z1 board by using the on board switches to blink various LED's on board using 
 python on Jupyter Notebook online IDE
